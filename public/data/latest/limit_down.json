@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-28",
+  "total_count": 15,
+  "sectors": [
+    {
+      "sector": "房地产",
+      "count": 4,
+      "stocks": [
+        { "name": "ST泛海", "code": "000046", "change_pct": -5.00, "consecutive_down": 3, "reason": "ST风险" },
+        { "name": "金科股份", "code": "000656", "change_pct": -10.00, "consecutive_down": 1, "reason": "待分析" },
+        { "name": "ST泰禾", "code": "000732", "change_pct": -5.00, "consecutive_down": 5, "reason": "ST风险" },
+        { "name": "荣盛发展", "code": "002146", "change_pct": -9.95, "consecutive_down": 2, "reason": "待分析" }
+      ]
+    },
+    {
+      "sector": "医药生物",
+      "count": 3,
+      "stocks": [
+        { "name": "以岭药业", "code": "002603", "change_pct": -10.00, "consecutive_down": 1, "reason": "待分析" },
+        { "name": "康希诺", "code": "688185", "change_pct": -10.01, "consecutive_down": 1, "reason": "待分析" }
+      ]
+    },
+    {
+      "sector": "食品饮料",
+      "count": 2,
+      "stocks": [
+        { "name": "黑芝麻", "code": "000716", "change_pct": -10.00, "consecutive_down": 2, "reason": "待分析" }
+      ]
+    }
+  ]
+}
