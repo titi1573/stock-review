@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-28",
+  "total_count": 65,
+  "sectors": [
+    {
+      "sector": "半导体",
+      "count": 12,
+      "max_consecutive": 5,
+      "leader": { "name": "深科技", "code": "000021", "consecutive": 5 },
+      "stocks": [
+        { "name": "深科技", "code": "000021", "consecutive": 5, "change_pct": 10.01, "is_st": false, "is_new_stock_locked": false },
+        { "name": "北方华创", "code": "002371", "consecutive": 2, "change_pct": 10.00, "is_st": false, "is_new_stock_locked": false },
+        { "name": "中微公司", "code": "688012", "consecutive": 1, "change_pct": 10.02, "is_st": false, "is_new_stock_locked": false },
+        { "name": "韦尔股份", "code": "603501", "consecutive": 3, "change_pct": 10.00, "is_st": false, "is_new_stock_locked": false },
+        { "name": "ST华微", "code": "600360", "consecutive": 2, "change_pct": 5.05, "is_st": true, "is_new_stock_locked": false }
+      ]
+    },
+    {
+      "sector": "计算机",
+      "count": 10,
+      "max_consecutive": 6,
+      "leader": { "name": "浪潮信息", "code": "000977", "consecutive": 6 },
+      "stocks": [
+        { "name": "浪潮信息", "code": "000977", "consecutive": 6, "change_pct": 10.01, "is_st": false, "is_new_stock_locked": false },
+        { "name": "中科曙光", "code": "603019", "consecutive": 3, "change_pct": 10.00, "is_st": false, "is_new_stock_locked": false },
+        { "name": "三六零", "code": "601360", "consecutive": 1, "change_pct": 10.03, "is_st": false, "is_new_stock_locked": false }
+      ]
+    },
+    {
+      "sector": "电力设备",
+      "count": 8,
+      "max_consecutive": 4,
+      "leader": { "name": "阳光电源", "code": "300274", "consecutive": 4 },
+      "stocks": [
+        { "name": "阳光电源", "code": "300274", "consecutive": 4, "change_pct": 10.00, "is_st": false, "is_new_stock_locked": false },
+        { "name": "锦浪科技", "code": "300763", "consecutive": 2, "change_pct": 10.01, "is_st": false, "is_new_stock_locked": false }
+      ]
+    },
+    {
+      "sector": "汽车",
+      "count": 7,
+      "max_consecutive": 3,
+      "leader": { "name": "赛力斯", "code": "601127", "consecutive": 3 },
+      "stocks": [
+        { "name": "赛力斯", "code": "601127", "consecutive": 3, "change_pct": 10.00, "is_st": false, "is_new_stock_locked": false },
+        { "name": "比亚迪", "code": "002594", "consecutive": 1, "change_pct": 10.00, "is_st": false, "is_new_stock_locked": false },
+        { "name": "新股汽车", "code": "301500", "consecutive": 3, "change_pct": 10.01, "is_st": false, "is_new_stock_locked": true }
+      ]
+    }
+  ]
+}
