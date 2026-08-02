@@ -3,7 +3,7 @@ import Dashboard from "./components/Dashboard";
 import TurnoverRanking from "./components/TurnoverRanking";
 import LimitAnalysis from "./components/LimitAnalysis";
 
-const DATA_BASE = "/data";
+const DATA_BASE = "/stock-review/data";
 
 function useData(filename) {
   const [data, setData] = useState(null);
