@@ -1,111 +1,27 @@
 @import "tailwindcss";
 
-@layer base {
-  :root {
-    --bg-primary: #0b1120;
-    --bg-card: rgba(15, 23, 42, 0.7);
-    --border-subtle: rgba(255, 255, 255, 0.06);
-    --text-primary: #e2e8f0;
-    --text-secondary: #94a3b8;
-    --accent-blue: #60a5fa;
-    --accent-gold: #fbbf24;
-    --up-color: #f87171;
-    --down-color: #4ade80;
-  }
-
-  * {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
-  }
-
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    background: var(--bg-primary);
-    color: var(--text-primary);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-  }
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 3px;
-  }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
 }
 
-@layer components {
-  .glass-card {
-    background: var(--bg-card);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid var(--border-subtle);
-    border-radius: 12px;
-    transition: all 0.2s ease;
-  }
-  .glass-card:hover {
-    border-color: rgba(255, 255, 255, 0.12);
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-  }
-
-  .num-up {
-    color: var(--up-color);
-  }
-  .num-down {
-    color: var(--down-color);
-  }
-  .num-flat {
-    color: var(--text-secondary);
-  }
-
-  .btn-pill {
-    padding: 4px 12px;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    transition: all 0.15s ease;
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(255, 255, 255, 0.04);
-    color: var(--text-secondary);
-  }
-  .btn-pill:hover {
-    background: rgba(255, 255, 255, 0.08);
-    color: var(--text-primary);
-  }
-  .btn-pill.active {
-    background: var(--accent-blue);
-    color: #0b1120;
-    border-color: var(--accent-blue);
-  }
-
-  .section-title {
-    font-size: 1.05rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .section-title::before {
-    content: "";
-    display: inline-block;
-    width: 4px;
-    height: 18px;
-    background: linear-gradient(180deg, var(--accent-blue), transparent);
-    border-radius: 2px;
-  }
-
-  @keyframes fadeSlideIn {
-    from { opacity: 0; transform: translateY(8px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  .animate-in {
-    animation: fadeSlideIn 0.35s ease both;
-  }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 3px; }
+
+.glass-card {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+}
+
+.num-up { color: #f87171; }
+.num-down { color: #4ade80; }

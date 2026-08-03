@@ -45,9 +45,9 @@ export default function App() {
 
   if (allLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center" style={{ background: "var(--bg-primary)" }}>
+      <div className="min-h-screen flex items-center justify-center bg-[#0b1120]">
         <div className="flex flex-col items-center gap-4">
-          <div className="w-10 h-10 border-2 border-blue-400/30 border-t-blue-400 rounded-full animate-spin" />
+          <div className="w-8 h-8 border-2 border-blue-400/30 border-t-blue-400 rounded-full animate-spin" />
           <span className="text-slate-400 text-sm">加载中...</span>
         </div>
       </div>
@@ -56,7 +56,7 @@ export default function App() {
 
   if (anyError && !dashboard.data) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4" style={{ background: "var(--bg-primary)" }}>
+      <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-[#0b1120]">
         <p className="text-slate-400">数据加载失败，请检查网络</p>
         <button onClick={() => window.location.reload()} className="px-5 py-2 bg-blue-500 text-white rounded-lg text-sm hover:bg-blue-400 transition-colors">重试</button>
       </div>
@@ -66,56 +66,39 @@ export default function App() {
   const dateStr = meta.data?.data_date || dashboard.data?.date || "--";
 
   return (
-    <div className="min-h-screen relative" style={{ background: "var(--bg-primary)" }}>
-      {/* Ambient glow */}
-      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full pointer-events-none" style={{ background: "radial-gradient(ellipse, rgba(59,130,246,0.08) 0%, transparent 70%)" }} />
-
-      {/* Header */}
-      <header className="relative z-20 border-b border-white/5">
-        <div className="glass-card rounded-none border-0 border-b border-white/5">
-          <div className="max-w-4xl mx-auto px-5 py-4 flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold"
-                style={{ background: "linear-gradient(135deg, #3b82f6, #8b5cf6)" }}>
-                复
-              </div>
-              <div>
-                <h1 className="text-base font-bold text-slate-100">A股每日复盘</h1>
-                <p className="text-xs text-slate-500">{dateStr}</p>
-              </div>
+    <div className="min-h-screen bg-[#0b1120]">
+      <header className="sticky top-0 z-20 glass-card rounded-none border-0 border-b border-white/5">
+        <div className="max-w-4xl mx-auto px-5 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold bg-gradient-to-br from-blue-500 to-purple-500">复</div>
+            <div>
+              <h1 className="text-base font-bold text-slate-100">A股每日复盘</h1>
+              <p className="text-xs text-slate-500">{dateStr}</p>
             </div>
-            <div className="flex items-center gap-3">
-              {statusBanner && (
-                <span className={`text-xs px-2.5 py-1 rounded-full ${statusBanner.color}`}>{statusBanner.text}</span>
-              )}
-              <input
-                type="date"
-                defaultValue={dateStr}
-                className="text-xs bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-slate-300 focus:outline-none focus:border-blue-400/50 [color-scheme:dark]"
-                onChange={(e) => {
-                  if (e.target.value) window.location.href = `/history/${e.target.value}`;
-                }}
-              />
-            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            {statusBanner && (
+              <span className={`text-xs px-2.5 py-1 rounded-full ${statusBanner.color}`}>{statusBanner.text}</span>
+            )}
+            <input
+              type="date"
+              defaultValue={dateStr}
+              className="text-xs bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-slate-300 focus:outline-none focus:border-blue-400/50 [color-scheme:dark]"
+              onChange={(e) => {
+                if (e.target.value) window.location.href = `/history/${e.target.value}`;
+              }}
+            />
           </div>
         </div>
       </header>
 
-      {/* Main */}
-      <main className="relative z-10 max-w-4xl mx-auto px-5 py-6 space-y-6">
-        <div className="animate-in" style={{ animationDelay: "0ms" }}>
-          {dashboard.data && <Dashboard data={dashboard.data} meta={meta.data} />}
-        </div>
-        <div className="animate-in" style={{ animationDelay: "100ms" }}>
-          {turnover.data && <TurnoverRanking data={turnover.data} />}
-        </div>
-        <div className="animate-in" style={{ animationDelay: "200ms" }}>
-          {limitUp.data && limitDown.data && <LimitAnalysis upData={limitUp.data} downData={limitDown.data} />}
-        </div>
+      <main className="max-w-4xl mx-auto px-5 py-6 space-y-6">
+        {dashboard.data && <Dashboard data={dashboard.data} meta={meta.data} />}
+        {turnover.data && <TurnoverRanking data={turnover.data} />}
+        {limitUp.data && limitDown.data && <LimitAnalysis upData={limitUp.data} downData={limitDown.data} />}
       </main>
 
-      {/* Footer */}
-      <footer className="relative z-10 max-w-4xl mx-auto px-5 py-8 text-xs text-slate-600 space-y-1 border-t border-white/5 mt-8">
+      <footer className="max-w-4xl mx-auto px-5 py-8 text-xs text-slate-600 space-y-1 border-t border-white/5">
         <div>数据更新时间：{meta.data?.generated_at || "--"}</div>
         <div>分类来源：东方财富行业分类  |  本网站仅提供数据复盘，不构成投资建议</div>
       </footer>
