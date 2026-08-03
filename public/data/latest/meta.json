@@ -1,9 +1,8 @@
 {
-  "data_date": "2026-08-03",
-  "generated_at": "2026-08-03T11:18:37+08:00",
-  "status": "partial",
-  "missing_fields": [
-    "turnover"
-  ],
+  "data_date": "2026-07-28",
+  "generated_at": "2026-07-28T17:05:00+08:00",
+  "status": "success",
+  "missing_fields": [],
+  "next_update_expected": "2026-07-29T17:00:00+08:00",
   "notes": ""
 }

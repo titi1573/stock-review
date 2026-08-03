@@ -1,52 +1,28 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-07-28",
   "indices": [
-    {
-      "name": "上证指数",
-      "code": "sh000001",
-      "price": 3809.663,
-      "change": -22.6,
-      "change_pct": -0.59
-    },
-    {
-      "name": "深证成指",
-      "code": "sz399001",
-      "price": 13448.289,
-      "change": -130.64,
-      "change_pct": -0.96
-    },
-    {
-      "name": "创业板指",
-      "code": "sz399006",
-      "price": 3302.553,
-      "change": -41.41,
-      "change_pct": -1.24
-    },
-    {
-      "name": "科创50",
-      "code": "sh000688",
-      "price": 1552.89,
-      "change": -83.07,
-      "change_pct": -5.08
-    }
+    { "name": "上证指数", "code": "000001", "price": 3250.45, "change": 12.34, "change_pct": 0.38 },
+    { "name": "深证成指", "code": "399001", "price": 10890.12, "change": -45.67, "change_pct": -0.42 },
+    { "name": "创业板指", "code": "399006", "price": 2156.78, "change": 8.90, "change_pct": 0.41 },
+    { "name": "科创50", "code": "000688", "price": 980.50, "change": -3.20, "change_pct": -0.33 }
   ],
   "market_summary": {
-    "total_turnover": 0.0,
-    "turnover_change_pct": 0,
-    "up_count": 0,
-    "down_count": 0,
-    "northbound_net": 0
+    "total_turnover": 8765.40,
+    "turnover_change_pct": -5.2,
+    "up_count": 2800,
+    "down_count": 2100,
+    "northbound_net": 45.60
   },
   "thermometer": {
     "label": "偏热",
     "description": "涨停家数远超跌停，赚钱效应较强",
     "factors": {
-      "limit_up_down_ratio": 9.38,
+      "limit_up_down_ratio": 4.5,
       "limit_up_down_signal": "hot",
       "max_consecutive": 6,
       "max_consecutive_signal": "hot",
-      "up_down_ratio": 0.0,
-      "up_down_signal": "cold"
+      "up_down_ratio": 1.33,
+      "up_down_signal": "neutral"
     }
   }
 }

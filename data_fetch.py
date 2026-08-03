@@ -1,7 +1,7 @@
 """
 A股每日复盘数据采集脚本
 用法: python data_fetch.py
-输出: public/data/latest/*.json  + daily归档
+输出: public/data/latest/*.json + daily归档
 """
 import json
 import os
@@ -13,7 +13,6 @@ DATA_DIR = Path("public/data")
 LATEST_DIR = DATA_DIR / "latest"
 DAILY_DIR = DATA_DIR / "daily"
 
-# 体温计默认值 (AKShare拉不到涨停数据时的fallback)
 FALLBACK_THERMOMETER = {
     "label": "数据暂缺",
     "description": "今日无法计算体温",
@@ -28,8 +27,16 @@ FALLBACK_THERMOMETER = {
 }
 
 
+def load_existing(filename):
+    """加载已有数据作为fallback"""
+    path = LATEST_DIR / filename
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+
 def calc_thermometer(limit_up_total, limit_down_total, max_consecutive, up_count, down_count):
-    """计算市场体温"""
     if limit_down_total == 0:
         return {
             "label": "强热",
@@ -46,9 +53,7 @@ def calc_thermometer(limit_up_total, limit_down_total, max_consecutive, up_count
 
     dl_ratio = limit_up_total / max(limit_down_total, 1)
     dl_signal = "hot" if dl_ratio > 3 else "cold" if dl_ratio < 1 else "neutral"
-
     lh_signal = "hot" if max_consecutive >= 5 else "cold" if max_consecutive <= 2 else "neutral"
-
     ud_ratio = up_count / max(down_count, 1)
     ud_signal = "hot" if ud_ratio > 2 else "cold" if ud_ratio < 0.5 else "neutral"
 
@@ -77,200 +82,167 @@ def calc_thermometer(limit_up_total, limit_down_total, max_consecutive, up_count
     }
 
 
-def fetch_dashboard():
-    """拉取大盘概况数据"""
+def fetch_all_data():
+    """一次性拉取全市场数据，从中提取各个模块所需数据"""
     try:
         import akshare as ak
-
-        # 指数行情
-        idx_codes = {"上证指数": "sh000001", "深证成指": "sz399001", "创业板指": "sz399006", "科创50": "sh000688"}
-        today = date.today().strftime("%Y%m%d")
-
-        indices = []
-        yesterday = None
-        for name, code in idx_codes.items():
-            try:
-                df = ak.stock_zh_index_daily(symbol=code)
-                if df is not None and not df.empty:
-                    row = df.iloc[-1]
-                    prev = df.iloc[-2] if len(df) > 1 else row
-                    price = float(row["close"])
-                    prev_close = float(prev["close"])
-                    change = round(price - prev_close, 2)
-                    change_pct = round((price - prev_close) / prev_close * 100, 2)
-                    indices.append({"name": name, "code": code, "price": price, "change": change, "change_pct": change_pct})
-                    yesterday = prev_close
-                else:
-                    indices.append({"name": name, "code": code, "price": 0, "change": 0, "change_pct": 0})
-            except Exception:
-                indices.append({"name": name, "code": code, "price": 0, "change": 0, "change_pct": 0})
-
-        # 市场总览 (两市成交额、涨跌家数)
-        total_turnover = 0
-        turnover_change_pct = 0
-        up_count = 0
-        down_count = 0
-        try:
-            df_sh = ak.stock_sse_summary()
-            if df_sh is not None:
-                total_turnover += float(df_sh.iloc[0].get("totalAmount", 0)) / 1e8
-        except Exception:
-            pass
-
-        try:
-            df_sz = ak.stock_szse_summary()
-            if df_sz is not None and not df_sz.empty:
-                row = df_sz.iloc[-1]
-                total_turnover += float(row.get("交易金额", 0)) / 1e8
-        except Exception:
-            pass
-
-        # 涨跌家数 (通过个股涨跌统计近似)
-        try:
-            df_market = ak.stock_zh_index_daily(symbol="sh000001")
-            if df_market is not None and not df_market.empty:
-                # AKShare部分接口有涨跌家数字段, 尝试读取
-                pass
-        except Exception:
-            pass
-
-        # 北向资金
-        northbound = 0
-        try:
-            df_nb = ak.stock_hsgt_north_net_flow_in_em(symbol="北上")
-            if df_nb is not None and not df_nb.empty:
-                northbound = float(df_nb.iloc[-1].get("value", 0))
-        except Exception:
-            pass
-
-        return {
-            "indices": indices,
-            "market_summary": {
-                "total_turnover": round(total_turnover, 2),
-                "turnover_change_pct": round(turnover_change_pct, 2),
-                "up_count": up_count,
-                "down_count": down_count,
-                "northbound_net": round(northbound, 2)
-            }
-        }
     except ImportError:
-        print("[WARN] akshare 未安装, 使用示例数据")
-        return None
-    except Exception as e:
-        print(f"[ERROR] fetch_dashboard: {e}")
-        return None
+        print("[WARN] akshare 未安装")
+        return None, None, None, None
 
+    today_str = date.today().strftime("%Y-%m-%d")
 
-def fetch_limit_up_down():
-    """拉取涨停跌停列表"""
+    # 1. 全市场个股数据 (用于成交额榜、涨跌家数)
+    print("[1] 获取全市场个股数据...")
+    spot_items = []
+    up_count = 0
+    down_count = 0
+    total_turnover = 0
     try:
-        import akshare as ak
-        today = date.today().strftime("%Y%m%d")
+        df_spot = ak.stock_zh_a_spot_em()
+        if df_spot is not None and not df_spot.empty:
+            for _, row in df_spot.iterrows():
+                try:
+                    chg = float(row.get("涨跌幅", 0) or 0)
+                    vol = float(row.get("成交额", 0) or 0) / 1e8  # 转为亿
+                except (ValueError, TypeError):
+                    continue
 
-        # 涨停板
-        limit_up = {"total_count": 0, "sectors": []}
-        try:
-            df_up = ak.stock_zt_pool_em(date=today)
-            if df_up is not None and not df_up.empty:
-                limit_up["total_count"] = len(df_up)
-                # 按板块聚合
-                sectors = {}
-                for _, row in df_up.iterrows():
-                    sector = row.get("所属行业", "其他")
-                    name = row.get("名称", "")
-                    code = row.get("代码", "")
-                    pct = float(row.get("涨跌幅", 0))
-                    consecutive = int(row.get("连板数", 1))
-                    is_st = str(code).startswith("ST") or str(code).startswith("*ST")
-                    stock = {"name": name, "code": code, "consecutive": consecutive,
-                             "change_pct": pct, "is_st": is_st, "is_new_stock_locked": False}
-                    if sector not in sectors:
-                        sectors[sector] = {"stocks": [], "max_consecutive": 0, "leader": None}
-                    sectors[sector]["stocks"].append(stock)
-                    if consecutive > sectors[sector]["max_consecutive"]:
-                        sectors[sector]["max_consecutive"] = consecutive
-                        sectors[sector]["leader"] = {"name": name, "code": code, "consecutive": consecutive}
-
-                for name, sec in sectors.items():
-                    limit_up["sectors"].append({
-                        "sector": name, "count": len(sec["stocks"]),
-                        "max_consecutive": sec["max_consecutive"],
-                        "leader": sec["leader"], "stocks": sec["stocks"]
-                    })
-                limit_up["sectors"].sort(key=lambda x: x["count"], reverse=True)
-        except Exception as e:
-            print(f"[WARN] 涨停数据获取失败: {e}")
-
-        # 跌停板
-        limit_down = {"total_count": 0, "sectors": []}
-        try:
-            df_down = ak.stock_zt_pool_dtgc_em(date=today)
-            if df_down is not None and not df_down.empty:
-                limit_down["total_count"] = len(df_down)
-                sectors = {}
-                for _, row in df_down.iterrows():
-                    sector = row.get("所属行业", "其他")
-                    name = row.get("名称", "")
-                    code = row.get("代码", "")
-                    pct = float(row.get("涨跌幅", 0))
-                    is_st = str(code).startswith("ST") or str(code).startswith("*ST")
-                    reason = "ST风险" if is_st else "待分析"
-                    stock = {"name": name, "code": code, "change_pct": pct,
-                             "consecutive_down": int(row.get("连续跌停", 1)), "reason": reason}
-                    if sector not in sectors:
-                        sectors[sector] = {"stocks": []}
-                    sectors[sector]["stocks"].append(stock)
-
-                for name, sec in sectors.items():
-                    limit_down["sectors"].append({
-                        "sector": name, "count": len(sec["stocks"]), "stocks": sec["stocks"]
-                    })
-                limit_down["sectors"].sort(key=lambda x: x["count"], reverse=True)
-        except Exception as e:
-            print(f"[WARN] 跌停数据获取失败: {e}")
-
-        return limit_up, limit_down
-    except ImportError:
-        return {"total_count": 0, "sectors": []}, {"total_count": 0, "sectors": []}
-    except Exception as e:
-        print(f"[ERROR] fetch_limit_up_down: {e}")
-        return {"total_count": 0, "sectors": []}, {"total_count": 0, "sectors": []}
-
-
-def fetch_turnover_top():
-    """拉取成交额排行榜"""
-    try:
-        import akshare as ak
-        today = date.today().strftime("%Y%m%d")
-        items = []
-        try:
-            df = ak.stock_zh_a_spot_em()
-            if df is not None and not df.empty:
-                df_sorted = df.nlargest(50, "成交额")
-                for _, row in df_sorted.iterrows():
-                    turnover = float(row["成交额"]) / 1e8
-                    if turnover < 10:
-                        continue
-                    items.append({
-                        "name": row.get("名称", ""),
-                        "code": row.get("代码", ""),
-                        "turnover": round(turnover, 2),
-                        "change_pct": round(float(row.get("涨跌幅", 0)), 2),
-                        "sector": row.get("所属行业", "其他"),
+                if vol > 0:
+                    total_turnover += vol
+                    spot_items.append({
+                        "name": str(row.get("名称", "")),
+                        "code": str(row.get("代码", "")),
+                        "turnover": round(vol, 2),
+                        "change_pct": round(chg, 2),
+                        "sector": str(row.get("所属行业", "其他")),
                         "turnover_percentile": 0
                     })
-        except Exception as e:
-            print(f"[WARN] 成交额数据获取失败: {e}")
-
-        return {
-            "items": items,
-            "total_eligible": len(items)
-        }
-    except ImportError:
-        return {"items": [], "total_eligible": 0}
+                if chg > 0:
+                    up_count += 1
+                elif chg < 0:
+                    down_count += 1
+            print(f"  获取 {len(spot_items)} 只个股, 成交额 {total_turnover:.0f}亿")
     except Exception as e:
-        print(f"[ERROR] fetch_turnover_top: {e}")
-        return {"items": [], "total_eligible": 0}
+        print(f"[WARN] 全市场数据获取失败: {e}")
+
+    # 2. 指数行情
+    print("[2] 获取指数行情...")
+    indices = []
+    idx_codes = {"上证指数": "sh000001", "深证成指": "sz399001", "创业板指": "sz399006", "科创50": "sh000688"}
+    for name, code in idx_codes.items():
+        try:
+            df = ak.stock_zh_index_daily(symbol=code)
+            if df is not None and not df.empty:
+                row = df.iloc[-1]
+                prev = df.iloc[-2] if len(df) > 1 else row
+                price = float(row["close"])
+                prev_close = float(prev["close"])
+                change = round(price - prev_close, 2)
+                change_pct = round((price - prev_close) / prev_close * 100, 2)
+                indices.append({"name": name, "code": code, "price": price, "change": change, "change_pct": change_pct})
+            else:
+                indices.append({"name": name, "code": code, "price": 0, "change": 0, "change_pct": 0})
+        except Exception as e:
+            print(f"  [WARN] {name}: {e}")
+            indices.append({"name": name, "code": code, "price": 0, "change": 0, "change_pct": 0})
+
+    # 3. 北向资金
+    print("[3] 获取北向资金...")
+    northbound = 0
+    try:
+        df_nb = ak.stock_hsgt_north_net_flow_in_em(symbol="北上")
+        if df_nb is not None and not df_nb.empty:
+            val = df_nb.iloc[-1].get("value", 0) or df_nb.iloc[-1].get("净流入", 0) or 0
+            northbound = round(float(val), 2)
+    except Exception as e:
+        print(f"  [WARN] 北向资金: {e}")
+
+    # 4. 涨停跌停
+    print("[4] 获取涨停跌停...")
+    limit_up = {"total_count": 0, "sectors": []}
+    limit_down = {"total_count": 0, "sectors": []}
+    today_fmt = date.today().strftime("%Y%m%d")
+    try:
+        df_up = ak.stock_zt_pool_em(date=today_fmt)
+        if df_up is not None and not df_up.empty:
+            limit_up["total_count"] = len(df_up)
+            sectors = {}
+            for _, row in df_up.iterrows():
+                sector = str(row.get("所属行业", "其他"))
+                name = str(row.get("名称", ""))
+                code = str(row.get("代码", ""))
+                pct = float(row.get("涨跌幅", 0) or 0)
+                consecutive = int(row.get("连板数", 1) or 1)
+                is_st = "ST" in str(code)
+                stock = {"name": name, "code": code, "consecutive": consecutive,
+                         "change_pct": pct, "is_st": is_st, "is_new_stock_locked": False}
+                if sector not in sectors:
+                    sectors[sector] = {"stocks": [], "max_consecutive": 0, "leader": None}
+                sectors[sector]["stocks"].append(stock)
+                if consecutive > sectors[sector]["max_consecutive"]:
+                    sectors[sector]["max_consecutive"] = consecutive
+                    sectors[sector]["leader"] = {"name": name, "code": code, "consecutive": consecutive}
+            for name, sec in sectors.items():
+                limit_up["sectors"].append({
+                    "sector": name, "count": len(sec["stocks"]),
+                    "max_consecutive": sec["max_consecutive"],
+                    "leader": sec["leader"], "stocks": sec["stocks"]
+                })
+            limit_up["sectors"].sort(key=lambda x: x["count"], reverse=True)
+    except Exception as e:
+        print(f"  [WARN] 涨停: {e}")
+
+    try:
+        df_down = ak.stock_zt_pool_dtgc_em(date=today_fmt)
+        if df_down is not None and not df_down.empty:
+            limit_down["total_count"] = len(df_down)
+            sectors = {}
+            for _, row in df_down.iterrows():
+                sector = str(row.get("所属行业", "其他"))
+                name = str(row.get("名称", ""))
+                code = str(row.get("代码", ""))
+                pct = float(row.get("涨跌幅", 0) or 0)
+                is_st = "ST" in str(code)
+                stock = {"name": name, "code": code, "change_pct": pct,
+                         "consecutive_down": int(row.get("连续跌停", 1) or 1),
+                         "reason": "ST风险" if is_st else "待分析"}
+                if sector not in sectors:
+                    sectors[sector] = {"stocks": []}
+                sectors[sector]["stocks"].append(stock)
+            for name, sec in sectors.items():
+                limit_down["sectors"].append({
+                    "sector": name, "count": len(sec["stocks"]), "stocks": sec["stocks"]
+                })
+            limit_down["sectors"].sort(key=lambda x: x["count"], reverse=True)
+    except Exception as e:
+        print(f"  [WARN] 跌停: {e}")
+
+    # 构建成交额榜 (Top 50)
+    spot_items.sort(key=lambda x: x["turnover"], reverse=True)
+    turnover_data = {
+        "date": today_str,
+        "total_eligible": len(spot_items),
+        "items": spot_items[:50]
+    }
+
+    # 构建dashboard
+    dashboard = {
+        "date": today_str,
+        "indices": indices,
+        "market_summary": {
+            "total_turnover": round(total_turnover, 2),
+            "turnover_change_pct": 0,
+            "up_count": up_count,
+            "down_count": down_count,
+            "northbound_net": northbound
+        }
+    }
+
+    limit_up["date"] = today_str
+    limit_down["date"] = today_str
+
+    return dashboard, turnover_data, limit_up, limit_down
 
 
 def save_json(data, path):
@@ -285,42 +257,53 @@ def main():
     generated_at = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00")
     missing = []
 
-    print(f"=== A股复盘数据采集 {today_str} ===")
+    print(f"=== A股复盘数据采集 {today_str} ===\n")
 
-    # 1. Dashboard
-    print("[1/4] 大盘概况...")
-    dash_raw = fetch_dashboard()
-    if dash_raw is None:
-        dash_raw = {
-            "indices": [],
-            "market_summary": {"total_turnover": 0, "turnover_change_pct": 0,
-                               "up_count": 0, "down_count": 0, "northbound_net": 0}
-        }
+    dashboard, turnover, limit_up, limit_down = fetch_all_data()
+
+    # 合并已有数据作为fallback
+    old_dash = load_existing("dashboard.json")
+    old_turnover = load_existing("turnover_top.json")
+    old_up = load_existing("limit_up.json")
+    old_down = load_existing("limit_down.json")
+
+    if dashboard is None:
+        dashboard = old_dash or {"indices": [], "market_summary": {"total_turnover": 0, "turnover_change_pct": 0, "up_count": 0, "down_count": 0, "northbound_net": 0}}
         missing.append("dashboard")
-    # fallback to saved later
+    else:
+        ms = dashboard["market_summary"]
+        if ms.get("total_turnover", 0) == 0 and old_dash and old_dash.get("market_summary", {}).get("total_turnover", 0) > 0:
+            print("[fallback] 成交额数据使用上期数据")
+            ms["total_turnover"] = old_dash["market_summary"]["total_turnover"]
+        if ms.get("up_count", 0) == 0 and ms.get("down_count", 0) == 0:
+            if old_dash:
+                ms["up_count"] = old_dash["market_summary"].get("up_count", 0)
+                ms["down_count"] = old_dash["market_summary"].get("down_count", 0)
+                print("[fallback] 涨跌家数使用上期数据")
 
-    # 2. Limit up/down
-    print("[2/4] 涨停跌停...")
-    limit_up, limit_down = fetch_limit_up_down()
-    if not limit_up.get("sectors"):
-        missing.append("limit_up")
-    if not limit_down.get("sectors"):
-        missing.append("limit_down")
+    if turnover is None or len(turnover.get("items", [])) == 0:
+        if old_turnover and old_turnover.get("items"):
+            turnover = old_turnover
+            print("[fallback] 成交额榜使用上期数据")
+        else:
+            turnover = turnover or {"items": [], "total_eligible": 0, "date": today_str}
+            missing.append("turnover")
 
-    # 3. Turnover
-    print("[3/4] 成交额榜...")
-    turnover = fetch_turnover_top()
-    if not turnover.get("items"):
-        missing.append("turnover")
+    if limit_up is None or not limit_up.get("sectors"):
+        limit_up = old_up or {"total_count": 0, "sectors": [], "date": today_str}
+        if limit_up.get("total_count", 0) == 0:
+            missing.append("limit_up")
+    if limit_down is None or not limit_down.get("sectors"):
+        limit_down = old_down or {"total_count": 0, "sectors": [], "date": today_str}
+        if limit_down.get("total_count", 0) == 0:
+            missing.append("limit_down")
 
-    # 4. Thermometer
+    # Thermometer
     lu_total = limit_up.get("total_count", 0)
     ld_total = limit_down.get("total_count", 0)
-    ms = dash_raw.get("market_summary", {})
+    ms = dashboard.get("market_summary", {})
     up_count = ms.get("up_count", 0)
     down_count = ms.get("down_count", 0)
-
-    # 从涨停数据里找最高连板
     max_lh = 0
     for sec in limit_up.get("sectors", []):
         if sec.get("max_consecutive", 0) > max_lh:
@@ -331,19 +314,12 @@ def main():
     else:
         thermometer = FALLBACK_THERMOMETER
 
-    dashboard = {
-        "date": today_str,
-        "indices": dash_raw.get("indices", []),
-        "market_summary": dash_raw.get("market_summary", {}),
-        "thermometer": thermometer
-    }
-
+    dashboard["thermometer"] = thermometer
     turnover["date"] = today_str
     limit_up["date"] = today_str
     limit_down["date"] = today_str
 
-    # Determine status
-    if len(missing) >= 3:
+    if len(missing) >= 4:
         status = "stale"
     elif len(missing) > 0:
         status = "partial"
@@ -358,20 +334,19 @@ def main():
         "notes": ""
     }
 
-    # Write
-    print("[4/4] 写入文件...")
+    print("\n[写入] 保存数据文件...")
     save_json(dashboard, LATEST_DIR / "dashboard.json")
     save_json(turnover, LATEST_DIR / "turnover_top.json")
     save_json(limit_up, LATEST_DIR / "limit_up.json")
     save_json(limit_down, LATEST_DIR / "limit_down.json")
     save_json(meta, LATEST_DIR / "meta.json")
 
-    # Archive to daily
+    # Archive
     archive_dir = DAILY_DIR / str(today.year) / f"{today.month:02d}" / f"{today.day:02d}"
     for fname in ["dashboard.json", "turnover_top.json", "limit_up.json", "limit_down.json", "meta.json"]:
         src = LATEST_DIR / fname
-        dst = archive_dir / fname
         if src.exists():
+            dst = archive_dir / fname
             dst.parent.mkdir(parents=True, exist_ok=True)
             import shutil
             shutil.copy(src, dst)
@@ -382,7 +357,6 @@ def main():
     if trend_file.exists():
         with open(trend_file, "r", encoding="utf-8") as f:
             trends = json.load(f)
-    # Remove existing entry for same date
     trends = [t for t in trends if t.get("date") != today_str]
     trends.append({
         "date": today_str,
@@ -392,12 +366,11 @@ def main():
         "down_count": down_count,
         "total_turnover": ms.get("total_turnover", 0)
     })
-    # Keep last 180
     trends = trends[-180:]
     with open(trend_file, "w", encoding="utf-8") as f:
         json.dump(trends, f, ensure_ascii=False, indent=2)
 
-    print(f"✓ 采集完成 | 状态: {status} | 缺失: {missing if missing else '无'}")
+    print(f"\n采集完成 | 状态: {status} | 缺失: {missing if missing else '无'}")
 
 
 if __name__ == "__main__":
