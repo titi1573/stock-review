@@ -25,3 +25,23 @@ body {
 
 .num-up { color: #f87171; }
 .num-down { color: #4ade80; }
+
+.btn-pill {
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: #94a3b8;
+}
+.btn-pill:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+}
+.btn-pill.active {
+  background: #60a5fa;
+  color: #0b1120;
+  border-color: #60a5fa;
+}

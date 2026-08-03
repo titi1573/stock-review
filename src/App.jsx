@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Dashboard from "./components/Dashboard";
 import TurnoverRanking from "./components/TurnoverRanking";
 import LimitAnalysis from "./components/LimitAnalysis";
+import { STATUS } from "./utils/format";
 
 const DATA_BASE = "/data";
 
@@ -34,22 +35,11 @@ export default function App() {
   const allLoading = meta.loading || dashboard.loading || turnover.loading || limitUp.loading || limitDown.loading;
   const anyError = meta.error || dashboard.error || turnover.error || limitUp.error || limitDown.error;
 
-  let statusBanner = null;
-  if (!allLoading && meta.data) {
-    if (meta.data.status === "stale") {
-      statusBanner = { text: `数据更新于 ${meta.data.data_date}，今日采集失败`, color: "text-amber-400 bg-amber-400/10" };
-    } else if (meta.data.status === "partial") {
-      statusBanner = { text: `部分数据缺失，更新于 ${meta.data.data_date}`, color: "text-amber-400 bg-amber-400/10" };
-    }
-  }
-
   if (allLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#0b1120]">
-        <div className="flex flex-col items-center gap-4">
-          <div className="w-8 h-8 border-2 border-blue-400/30 border-t-blue-400 rounded-full animate-spin" />
-          <span className="text-slate-400 text-sm">加载中...</span>
-        </div>
+      <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-[#0b1120]">
+        <div className="w-8 h-8 border-2 border-blue-400/30 border-t-blue-400 rounded-full animate-spin" />
+        <span className="text-slate-400 text-sm">加载中...</span>
       </div>
     );
   }
@@ -58,12 +48,17 @@ export default function App() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-[#0b1120]">
         <p className="text-slate-400">数据加载失败，请检查网络</p>
-        <button onClick={() => window.location.reload()} className="px-5 py-2 bg-blue-500 text-white rounded-lg text-sm hover:bg-blue-400 transition-colors">重试</button>
+        <button onClick={() => window.location.reload()} className="px-5 py-2 bg-blue-500 text-white rounded-lg text-sm hover:bg-blue-400">重试</button>
       </div>
     );
   }
 
   const dateStr = meta.data?.data_date || dashboard.data?.date || "--";
+  const status = meta.data?.status;
+  const bannerColor = "text-amber-400 bg-amber-400/10";
+  const statusBanner = (status !== STATUS.SUCCESS && status)
+    ? { text: status === STATUS.STALE ? `数据更新于 ${meta.data.data_date}，今日采集失败` : `部分数据缺失，更新于 ${meta.data.data_date}`, color: bannerColor }
+    : null;
 
   return (
     <div className="min-h-screen bg-[#0b1120]">
@@ -77,23 +72,18 @@ export default function App() {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            {statusBanner && (
-              <span className={`text-xs px-2.5 py-1 rounded-full ${statusBanner.color}`}>{statusBanner.text}</span>
-            )}
+            {statusBanner && <span className={`text-xs px-2.5 py-1 rounded-full ${statusBanner.color}`}>{statusBanner.text}</span>}
             <input
               type="date"
               defaultValue={dateStr}
               className="text-xs bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-slate-300 focus:outline-none focus:border-blue-400/50 [color-scheme:dark]"
-              onChange={(e) => {
-                if (e.target.value) window.location.href = `/history/${e.target.value}`;
-              }}
             />
           </div>
         </div>
       </header>
 
       <main className="max-w-4xl mx-auto px-5 py-6 space-y-6">
-        {dashboard.data && <Dashboard data={dashboard.data} meta={meta.data} />}
+        {dashboard.data && <Dashboard data={dashboard.data} />}
         {turnover.data && <TurnoverRanking data={turnover.data} />}
         {limitUp.data && limitDown.data && <LimitAnalysis upData={limitUp.data} downData={limitDown.data} />}
       </main>
