@@ -31,10 +31,10 @@
     }
   ],
   "market_summary": {
-    "total_turnover": 0.0,
+    "total_turnover": 8765.4,
     "turnover_change_pct": 0,
-    "up_count": 0,
-    "down_count": 0,
+    "up_count": 2800,
+    "down_count": 2100,
     "northbound_net": 0
   },
   "thermometer": {
@@ -45,8 +45,8 @@
       "limit_up_down_signal": "hot",
       "max_consecutive": 6,
       "max_consecutive_signal": "hot",
-      "up_down_ratio": 0.0,
-      "up_down_signal": "cold"
+      "up_down_ratio": 1.33,
+      "up_down_signal": "neutral"
     }
   }
 }
