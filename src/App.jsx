@@ -6,6 +6,18 @@ import { STATUS } from "./utils/format";
 
 const DATA_BASE = "/data";
 
+function expectedDate() {
+  const now = new Date();
+  const beijingHour = now.getUTCHours() + 8;
+  // Before 16:00 Beijing = use previous day
+  if (now.getUTCHours() < 8) now.setUTCDate(now.getUTCDate() - 1);
+  // Weekend -> Friday
+  const day = now.getUTCDay();
+  if (day === 0) now.setUTCDate(now.getUTCDate() - 2);
+  else if (day === 6) now.setUTCDate(now.getUTCDate() - 1);
+  return now.toISOString().slice(0, 10);
+}
+
 function useData(filename) {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
@@ -53,7 +65,8 @@ export default function App() {
     );
   }
 
-  const dateStr = meta.data?.data_date || dashboard.data?.date || "--";
+  const defaultDate = expectedDate();
+  const dataDate = meta.data?.data_date || dashboard.data?.date || "--";
   const status = meta.data?.status;
   const bannerColor = "text-amber-400 bg-amber-400/10";
   const statusBanner = (status !== STATUS.SUCCESS && status)
@@ -68,14 +81,14 @@ export default function App() {
             <div className="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold bg-gradient-to-br from-blue-500 to-purple-500">复</div>
             <div>
               <h1 className="text-base font-bold text-slate-100">A股每日复盘</h1>
-              <p className="text-xs text-slate-500">{dateStr}</p>
+              <p className="text-xs text-slate-500">数据日期: {dataDate}</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
             {statusBanner && <span className={`text-xs px-2.5 py-1 rounded-full ${statusBanner.color}`}>{statusBanner.text}</span>}
             <input
               type="date"
-              defaultValue={dateStr}
+              defaultValue={defaultDate}
               className="text-xs bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-slate-300 focus:outline-none focus:border-blue-400/50 [color-scheme:dark]"
             />
           </div>
