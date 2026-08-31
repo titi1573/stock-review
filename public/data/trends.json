@@ -158,5 +158,13 @@
     "up_count": 2800,
     "down_count": 2100,
     "total_turnover": 8765.4
+  },
+  {
+    "date": "2026-08-31",
+    "limit_up_count": 88,
+    "limit_down_count": 11,
+    "up_count": 2800,
+    "down_count": 2100,
+    "total_turnover": 8765.4
   }
 ]
