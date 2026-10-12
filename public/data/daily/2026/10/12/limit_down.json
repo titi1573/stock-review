@@ -1,0 +1,241 @@
+{
+  "total_count": 19,
+  "sectors": [
+    {
+      "sector": "化学制药",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "东亚药业",
+          "code": "605177",
+          "change_pct": -10.003534317016602,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "哈药股份",
+          "code": "600664",
+          "change_pct": -10.013531684875488,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "元件",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "华正新材",
+          "code": "603186",
+          "change_pct": -10.001936912536621,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "金安国纪",
+          "code": "002636",
+          "change_pct": -10.004185676574707,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "家电零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "春光科技",
+          "code": "603657",
+          "change_pct": -9.986357688903809,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "军工电子",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "雷科防务",
+          "code": "002413",
+          "change_pct": -9.954233169555664,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "农化制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "红四方",
+          "code": "603395",
+          "change_pct": -10.00376033782959,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "一般零售",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "国芳集团",
+          "code": "601086",
+          "change_pct": -9.973226547241211,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "生物制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "金迪克",
+          "code": "688670",
+          "change_pct": -19.97913360595703,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "宏柏新材",
+          "code": "605366",
+          "change_pct": -9.959758758544922,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "房地产服",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "世联行",
+          "code": "002285",
+          "change_pct": -10.091742515563965,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通信设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "星网锐捷",
+          "code": "002396",
+          "change_pct": -9.990394592285156,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "天马科技",
+          "code": "603668",
+          "change_pct": -10.038241386413574,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电子化学",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "宏昌电子",
+          "code": "603002",
+          "change_pct": -10.011312484741211,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "基础建设",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "园林股份",
+          "code": "605303",
+          "change_pct": -9.996895790100098,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "环境治理",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "高能环境",
+          "code": "603588",
+          "change_pct": -10.006027221679688,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "襄阳轴承",
+          "code": "000678",
+          "change_pct": -9.984151840209961,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "非白酒",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "会稽山",
+          "code": "601579",
+          "change_pct": -10.004964828491211,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学原料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "金牛化工",
+          "code": "600722",
+          "change_pct": -10.011848449707031,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-12"
+}
