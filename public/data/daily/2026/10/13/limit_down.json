@@ -1,0 +1,110 @@
+{
+  "total_count": 8,
+  "sectors": [
+    {
+      "sector": "出版",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "内蒙新华",
+          "code": "603230",
+          "change_pct": -9.979494094848633,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "环保设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "楚环科技",
+          "code": "001336",
+          "change_pct": -9.975550651550293,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "风电设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "大金重工",
+          "code": "002487",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电池",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "紫竹高科",
+          "code": "002058",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "天马科技",
+          "code": "603668",
+          "change_pct": -9.989372253417969,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "塑料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "国恩股份",
+          "code": "002768",
+          "change_pct": -10.001453399658203,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学制药",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "华北制药",
+          "code": "600812",
+          "change_pct": -9.954751014709473,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "消费电子",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "传艺科技",
+          "code": "002866",
+          "change_pct": -9.97389030456543,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-13"
+}
