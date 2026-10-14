@@ -1,0 +1,149 @@
+{
+  "total_count": 11,
+  "sectors": [
+    {
+      "sector": "环境治理",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "正和生态",
+          "code": "605069",
+          "change_pct": -10.008136749267578,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "家居用品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "恒林股份",
+          "code": "603661",
+          "change_pct": -10.01137638092041,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电网设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "远程股份",
+          "code": "002692",
+          "change_pct": -9.93914794921875,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "天马科技",
+          "code": "603668",
+          "change_pct": -10.035419464111328,
+          "consecutive_down": 3,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "航天装备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "星网宇达",
+          "code": "002829",
+          "change_pct": -9.972451210021973,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "农化制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "农心科技",
+          "code": "001231",
+          "change_pct": -10.010649681091309,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "风电设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "大金重工",
+          "code": "002487",
+          "change_pct": -10.002359390258789,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "有研新材",
+          "code": "600206",
+          "change_pct": -9.995467185974121,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "多元金融",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "仁东控股",
+          "code": "002647",
+          "change_pct": -9.963099479675293,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "塑料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "国恩股份",
+          "code": "002768",
+          "change_pct": -9.998384475708008,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "玻璃玻纤",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "中材科技",
+          "code": "002080",
+          "change_pct": -9.992254257202148,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-14"
+}
