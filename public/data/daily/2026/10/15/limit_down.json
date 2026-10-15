@@ -1,0 +1,302 @@
+{
+  "total_count": 26,
+  "sectors": [
+    {
+      "sector": "航运港口",
+      "count": 4,
+      "stocks": [
+        {
+          "name": "海通发展",
+          "code": "603162",
+          "change_pct": -9.991532325744629,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "招商南油",
+          "code": "601975",
+          "change_pct": -9.977827072143555,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "招商轮船",
+          "code": "601872",
+          "change_pct": -10.009310722351074,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "中远海能",
+          "code": "600026",
+          "change_pct": -9.978494644165039,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电网设备",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "远程股份",
+          "code": "002692",
+          "change_pct": -9.909910202026367,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "华通线缆",
+          "code": "605196",
+          "change_pct": -9.98743724822998,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "汽车零部",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "华纬科技",
+          "code": "001380",
+          "change_pct": -10.005817413330078,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "路畅科技",
+          "code": "002813",
+          "change_pct": -9.993108749389648,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "专用设备",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "运机集团",
+          "code": "001288",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "远信工业",
+          "code": "301053",
+          "change_pct": -20.012727737426758,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学制品",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "金奥博",
+          "code": "002917",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "醋化股份",
+          "code": "603968",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "星德胜",
+          "code": "603344",
+          "change_pct": -9.977324485778809,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电子化学",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "光华科技",
+          "code": "002741",
+          "change_pct": -10.009140968322754,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "渔业",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "开创国际",
+          "code": "600097",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "天马科技",
+          "code": "603668",
+          "change_pct": -9.973752975463867,
+          "consecutive_down": 4,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "塑料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "平安电工",
+          "code": "001359",
+          "change_pct": -10.001276969909668,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通用设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "哈空调",
+          "code": "600202",
+          "change_pct": -9.918699264526367,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "养殖业",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "京基智农",
+          "code": "000048",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "基础建设",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "宏润建设",
+          "code": "002062",
+          "change_pct": -9.955257415771484,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "种植业",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "海南橡胶",
+          "code": "601118",
+          "change_pct": -10.014513969421387,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "房地产开",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "荣丰控股",
+          "code": "000668",
+          "change_pct": -9.991158485412598,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "龙江交通",
+          "code": "601188",
+          "change_pct": -9.915014266967773,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "农化制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "农心科技",
+          "code": "001231",
+          "change_pct": -9.980276107788086,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "多元金融",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "仁东控股",
+          "code": "002647",
+          "change_pct": -10.040983200073242,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "一般零售",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "东百集团",
+          "code": "600693",
+          "change_pct": -10.008203506469727,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-15"
+}
