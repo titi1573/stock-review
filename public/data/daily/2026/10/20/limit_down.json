@@ -1,0 +1,78 @@
+{
+  "total_count": 6,
+  "sectors": [
+    {
+      "sector": "电力",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "芯能科技",
+          "code": "603105",
+          "change_pct": -9.950738906860352,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "闽东电力",
+          "code": "000993",
+          "change_pct": -10.01220989227295,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "林业Ⅱ",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "福建金森",
+          "code": "002679",
+          "change_pct": -10.025707244873047,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电网设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "思源电气",
+          "code": "002028",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电池",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "蔚蓝锂芯",
+          "code": "002245",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "出版",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "读者传媒",
+          "code": "603999",
+          "change_pct": -9.94694995880127,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-20"
+}
