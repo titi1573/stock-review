@@ -1,46 +1,26 @@
 {
-  "total_count": 6,
+  "total_count": 5,
   "sectors": [
     {
-      "sector": "电力",
-      "count": 2,
-      "stocks": [
-        {
-          "name": "芯能科技",
-          "code": "603105",
-          "change_pct": -9.950738906860352,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "闽东电力",
-          "code": "000993",
-          "change_pct": -10.01220989227295,
-          "consecutive_down": 2,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "林业Ⅱ",
+      "sector": "休闲食品",
       "count": 1,
       "stocks": [
         {
-          "name": "福建金森",
-          "code": "002679",
-          "change_pct": -10.025707244873047,
+          "name": "盐津铺子",
+          "code": "002847",
+          "change_pct": -10.0,
           "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
     },
     {
-      "sector": "电网设备",
+      "sector": "化学制品",
       "count": 1,
       "stocks": [
         {
-          "name": "思源电气",
-          "code": "002028",
+          "name": "吉华集团",
+          "code": "603980",
           "change_pct": -10.0,
           "consecutive_down": 1,
           "reason": "待分析"
@@ -52,8 +32,21 @@
       "count": 1,
       "stocks": [
         {
-          "name": "蔚蓝锂芯",
-          "code": "002245",
+          "name": "时代万恒",
+          "code": "600241",
+          "change_pct": -9.985315322875977,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "环境治理",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "上海洗霸",
+          "code": "603200",
           "change_pct": -10.0,
           "consecutive_down": 1,
           "reason": "待分析"
@@ -61,18 +54,18 @@
       ]
     },
     {
-      "sector": "出版",
+      "sector": "证券Ⅱ",
       "count": 1,
       "stocks": [
         {
-          "name": "读者传媒",
-          "code": "603999",
-          "change_pct": -9.94694995880127,
-          "consecutive_down": 2,
+          "name": "锦龙股份",
+          "code": "000712",
+          "change_pct": -10.018552780151367,
+          "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
     }
   ],
-  "date": "2026-10-20"
+  "date": "2026-10-21"
 }

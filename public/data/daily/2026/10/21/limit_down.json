@@ -1,0 +1,71 @@
+{
+  "total_count": 5,
+  "sectors": [
+    {
+      "sector": "休闲食品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "盐津铺子",
+          "code": "002847",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "吉华集团",
+          "code": "603980",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电池",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "时代万恒",
+          "code": "600241",
+          "change_pct": -9.985315322875977,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "环境治理",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "上海洗霸",
+          "code": "603200",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "证券Ⅱ",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "锦龙股份",
+          "code": "000712",
+          "change_pct": -10.018552780151367,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-21"
+}
