@@ -1,33 +1,33 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "indices": [
     {
       "name": "上证指数",
       "code": "sh000001",
-      "price": 3713.028,
-      "change": -22.34,
-      "change_pct": -0.6
+      "price": 3658.026,
+      "change": -55.0,
+      "change_pct": -1.48
     },
     {
       "name": "深证成指",
       "code": "sz399001",
-      "price": 11704.354,
-      "change": -96.94,
-      "change_pct": -0.82
+      "price": 11357.319,
+      "change": -347.03,
+      "change_pct": -2.97
     },
     {
       "name": "创业板指",
       "code": "sz399006",
-      "price": 2694.713,
-      "change": -44.49,
-      "change_pct": -1.62
+      "price": 2576.901,
+      "change": -117.81,
+      "change_pct": -4.37
     },
     {
       "name": "科创50",
       "code": "sh000688",
-      "price": 1343.282,
-      "change": 0.86,
-      "change_pct": 0.06
+      "price": 1305.873,
+      "change": -37.41,
+      "change_pct": -2.78
     }
   ],
   "market_summary": {
@@ -41,10 +41,10 @@
     "label": "中性",
     "description": "市场多空力量均衡",
     "factors": {
-      "limit_up_down_ratio": 10.0,
-      "limit_up_down_signal": "hot",
-      "max_consecutive": 4,
-      "max_consecutive_signal": "neutral",
+      "limit_up_down_ratio": 0.67,
+      "limit_up_down_signal": "cold",
+      "max_consecutive": 5,
+      "max_consecutive_signal": "hot",
       "up_down_ratio": 1.17,
       "up_down_signal": "neutral"
     }
