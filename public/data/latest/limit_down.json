@@ -1,305 +1,6 @@
 {
-  "total_count": 49,
+  "total_count": 6,
   "sectors": [
-    {
-      "sector": "出版",
-      "count": 5,
-      "stocks": [
-        {
-          "name": "龙版传媒",
-          "code": "605577",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "粤 传 媒",
-          "code": "002181",
-          "change_pct": -9.964093208312988,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "新经典",
-          "code": "603096",
-          "change_pct": -10.005558013916016,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "内蒙新华",
-          "code": "603230",
-          "change_pct": -9.983498573303223,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "新华传媒",
-          "code": "600825",
-          "change_pct": -10.018552780151367,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "化学制品",
-      "count": 4,
-      "stocks": [
-        {
-          "name": "新亚强",
-          "code": "603155",
-          "change_pct": -10.0204496383667,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "亚邦股份",
-          "code": "603188",
-          "change_pct": -9.923664093017578,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "高争民爆",
-          "code": "002827",
-          "change_pct": -10.001848220825195,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "醋化股份",
-          "code": "603968",
-          "change_pct": -10.034013748168945,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "通用设备",
-      "count": 2,
-      "stocks": [
-        {
-          "name": "京城股份",
-          "code": "600860",
-          "change_pct": -9.943503379821777,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "泰尔股份",
-          "code": "002347",
-          "change_pct": -10.041265487670898,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "家居用品",
-      "count": 2,
-      "stocks": [
-        {
-          "name": "慕思股份",
-          "code": "001323",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "曲美家居",
-          "code": "603818",
-          "change_pct": -9.935205459594727,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "广告营销",
-      "count": 2,
-      "stocks": [
-        {
-          "name": "新 华 都",
-          "code": "002264",
-          "change_pct": -9.986504554748535,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "引力传媒",
-          "code": "603598",
-          "change_pct": -10.004833221435547,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "计算机设",
-      "count": 2,
-      "stocks": [
-        {
-          "name": "同为股份",
-          "code": "002835",
-          "change_pct": -10.012836456298828,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "盛视科技",
-          "code": "002990",
-          "change_pct": -9.998091697692871,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "电力",
-      "count": 2,
-      "stocks": [
-        {
-          "name": "芯能科技",
-          "code": "603105",
-          "change_pct": -10.022522926330566,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "闽东电力",
-          "code": "000993",
-          "change_pct": -9.993468284606934,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "汽车零部",
-      "count": 2,
-      "stocks": [
-        {
-          "name": "东安动力",
-          "code": "600178",
-          "change_pct": -9.963370323181152,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        },
-        {
-          "name": "万丰奥威",
-          "code": "002085",
-          "change_pct": -10.008935928344727,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "摩托车及",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "爱玛科技",
-          "code": "603529",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "中药Ⅱ",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "华森制药",
-          "code": "002907",
-          "change_pct": -10.020039558410645,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "专业服务",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "XD安邦护",
-          "code": "603373",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "生物制品",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "近岸蛋白",
-          "code": "688137",
-          "change_pct": -20.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "化学原料",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "三维化学",
-          "code": "002469",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "物流",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "上海雅仕",
-          "code": "603329",
-          "change_pct": -9.97150993347168,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "专用设备",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "上工申贝",
-          "code": "600843",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "饮料乳品",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "阳光乳业",
-          "code": "001318",
-          "change_pct": -10.023130416870117,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
     {
       "sector": "文娱用品",
       "count": 1,
@@ -307,33 +8,20 @@
         {
           "name": "通达创智",
           "code": "001368",
-          "change_pct": -9.991602897644043,
-          "consecutive_down": 1,
+          "change_pct": -10.01243782043457,
+          "consecutive_down": 2,
           "reason": "待分析"
         }
       ]
     },
     {
-      "sector": "工程机械",
+      "sector": "工业金属",
       "count": 1,
       "stocks": [
         {
-          "name": "永达股份",
-          "code": "001239",
-          "change_pct": -9.97286319732666,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "房地产开",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "深物业A",
-          "code": "000011",
-          "change_pct": -9.963768005371094,
+          "name": "闽发铝业",
+          "code": "002578",
+          "change_pct": -9.91735553741455,
           "consecutive_down": 1,
           "reason": "待分析"
         }
@@ -344,139 +32,9 @@
       "count": 1,
       "stocks": [
         {
-          "name": "德才股份",
-          "code": "605287",
-          "change_pct": -10.008646965026855,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "白酒Ⅱ",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "皇台酒业",
-          "code": "000995",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "专业工程",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "深桑达Ａ",
-          "code": "000032",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "教育",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "昂立教育",
-          "code": "600661",
-          "change_pct": -10.041841506958008,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "铁路公路",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "三羊马",
-          "code": "001317",
-          "change_pct": -10.003540992736816,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "焦炭Ⅱ",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "安泰集团",
-          "code": "600408",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "影视院线",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "博纳影业",
-          "code": "001330",
-          "change_pct": -9.923664093017578,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "电网设备",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "华盛昌",
-          "code": "002980",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "通信设备",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "剑桥科技",
-          "code": "603083",
-          "change_pct": -9.99942398071289,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "化学制药",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "灵康药业",
-          "code": "603669",
-          "change_pct": -9.943977355957031,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "IT服务Ⅱ",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "南威软件",
-          "code": "603636",
-          "change_pct": -10.0204496383667,
+          "name": "郑中设计",
+          "code": "002811",
+          "change_pct": -9.979716300964355,
           "consecutive_down": 1,
           "reason": "待分析"
         }
@@ -487,23 +45,23 @@
       "count": 1,
       "stocks": [
         {
-          "name": "崇达技术",
-          "code": "002815",
-          "change_pct": -9.995241165161133,
+          "name": "奥士康",
+          "code": "002913",
+          "change_pct": -10.004959106445312,
           "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
     },
     {
-      "sector": "证券Ⅱ",
+      "sector": "通用设备",
       "count": 1,
       "stocks": [
         {
-          "name": "锦龙股份",
-          "code": "000712",
-          "change_pct": -10.0,
-          "consecutive_down": 2,
+          "name": "哈空调",
+          "code": "600202",
+          "change_pct": -9.95106029510498,
+          "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
@@ -515,51 +73,12 @@
         {
           "name": "新亚制程",
           "code": "002388",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "电池",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "时代万恒",
-          "code": "600241",
-          "change_pct": -10.032626152038574,
+          "change_pct": -10.01220989227295,
           "consecutive_down": 2,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "医疗服务",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "澳洋健康",
-          "code": "002172",
-          "change_pct": -10.039369583129883,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "农产品加",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "金健米业",
-          "code": "600127",
-          "change_pct": -9.99265193939209,
-          "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
     }
   ],
-  "date": "2026-10-22"
+  "date": "2026-10-23"
 }

@@ -1,0 +1,84 @@
+{
+  "total_count": 6,
+  "sectors": [
+    {
+      "sector": "文娱用品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "通达创智",
+          "code": "001368",
+          "change_pct": -10.01243782043457,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "工业金属",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "闽发铝业",
+          "code": "002578",
+          "change_pct": -9.91735553741455,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "郑中设计",
+          "code": "002811",
+          "change_pct": -9.979716300964355,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "元件",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "奥士康",
+          "code": "002913",
+          "change_pct": -10.004959106445312,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通用设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "哈空调",
+          "code": "600202",
+          "change_pct": -9.95106029510498,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "其他电子",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "新亚制程",
+          "code": "002388",
+          "change_pct": -10.01220989227295,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-23"
+}
