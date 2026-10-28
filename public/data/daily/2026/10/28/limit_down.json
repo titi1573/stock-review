@@ -1,0 +1,71 @@
+{
+  "total_count": 5,
+  "sectors": [
+    {
+      "sector": "多元金融",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "瑞达期货",
+          "code": "002961",
+          "change_pct": -9.984151840209961,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "家居用品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "华瓷股份",
+          "code": "001216",
+          "change_pct": -10.008779525756836,
+          "consecutive_down": 3,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "证券Ⅱ",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "华鑫股份",
+          "code": "600621",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "正裕工业",
+          "code": "603089",
+          "change_pct": -10.02548885345459,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "软件开发",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "多伦科技",
+          "code": "603528",
+          "change_pct": -9.949238777160645,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-28"
+}

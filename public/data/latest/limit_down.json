@@ -1,248 +1,14 @@
 {
-  "total_count": 22,
+  "total_count": 5,
   "sectors": [
-    {
-      "sector": "饰品",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "萃华退",
-          "code": "002731",
-          "change_pct": -10.714285850524902,
-          "consecutive_down": 2,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "专用设备",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "林州重机",
-          "code": "002535",
-          "change_pct": -9.909910202026367,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "房地产开",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "华发股份",
-          "code": "600325",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "通用设备",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "海鸥股份",
-          "code": "603269",
-          "change_pct": -9.98307991027832,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "工业金属",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "豪美新材",
-          "code": "002988",
-          "change_pct": -9.99023723602295,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "黑色家电",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "四川九洲",
-          "code": "000801",
-          "change_pct": -9.973285675048828,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "自动化设",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "宏英智能",
-          "code": "001266",
-          "change_pct": -10.005184173583984,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "中药Ⅱ",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "众生药业",
-          "code": "002317",
-          "change_pct": -9.98116683959961,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
     {
       "sector": "多元金融",
       "count": 1,
       "stocks": [
         {
-          "name": "海德股份",
-          "code": "000567",
-          "change_pct": -9.980806350708008,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "计算机设",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "新 大 陆",
-          "code": "000997",
-          "change_pct": -9.994683265686035,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "生物制品",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "万泽股份",
-          "code": "000534",
-          "change_pct": -10.021208763122559,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "消费电子",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "亿道信息",
-          "code": "001314",
-          "change_pct": -9.990897178649902,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "影视院线",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "慈文传媒",
-          "code": "002343",
-          "change_pct": -10.0,
-          "consecutive_down": 2,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "化学制药",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "灵康药业",
-          "code": "603669",
-          "change_pct": -9.957324981689453,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "航空装备",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "洪都航空",
-          "code": "600316",
-          "change_pct": -9.986613273620605,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "汽车零部",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "正裕工业",
-          "code": "603089",
-          "change_pct": -10.015290260314941,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "其他电子",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "睿能科技",
-          "code": "603933",
-          "change_pct": -10.014727592468262,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "紫光国微",
-          "code": "002049",
-          "change_pct": -10.0,
-          "consecutive_down": 1,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "家电零部",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "奇精机械",
-          "code": "603677",
-          "change_pct": -10.00599193572998,
+          "name": "瑞达期货",
+          "code": "002961",
+          "change_pct": -9.984151840209961,
           "consecutive_down": 1,
           "reason": "待分析"
         }
@@ -255,38 +21,51 @@
         {
           "name": "华瓷股份",
           "code": "001216",
-          "change_pct": -9.996048927307129,
-          "consecutive_down": 2,
+          "change_pct": -10.008779525756836,
+          "consecutive_down": 3,
           "reason": "待分析"
         }
       ]
     },
     {
-      "sector": "工程机械",
+      "sector": "证券Ⅱ",
       "count": 1,
       "stocks": [
         {
-          "name": "南方路机",
-          "code": "603280",
-          "change_pct": -9.987894058227539,
+          "name": "华鑫股份",
+          "code": "600621",
+          "change_pct": -10.0,
           "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
     },
     {
-      "sector": "元件",
+      "sector": "汽车零部",
       "count": 1,
       "stocks": [
         {
-          "name": "华正新材",
-          "code": "603186",
-          "change_pct": -10.000551223754883,
+          "name": "正裕工业",
+          "code": "603089",
+          "change_pct": -10.02548885345459,
           "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "软件开发",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "多伦科技",
+          "code": "603528",
+          "change_pct": -9.949238777160645,
+          "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
     }
   ],
-  "date": "2026-10-27"
+  "date": "2026-10-28"
 }
