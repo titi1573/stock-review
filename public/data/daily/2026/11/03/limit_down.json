@@ -1,0 +1,191 @@
+{
+  "total_count": 17,
+  "sectors": [
+    {
+      "sector": "通用设备",
+      "count": 3,
+      "stocks": [
+        {
+          "name": "上海沪工",
+          "code": "603131",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "大元泵业",
+          "code": "603757",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "大业股份",
+          "code": "603278",
+          "change_pct": -10.017074584960938,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "count": 3,
+      "stocks": [
+        {
+          "name": "金海通",
+          "code": "603061",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "德明利",
+          "code": "001309",
+          "change_pct": -10.00096321105957,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "晶华微",
+          "code": "688130",
+          "change_pct": -20.020748138427734,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "元件",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "深南电路",
+          "code": "002916",
+          "change_pct": -10.000877380371094,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "景旺电子",
+          "code": "603228",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "塑料",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "聚石化学",
+          "code": "688669",
+          "change_pct": -19.99611473083496,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "福莱新材",
+          "code": "605488",
+          "change_pct": -9.991158485412598,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通信服务",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "世纪恒通",
+          "code": "301428",
+          "change_pct": -20.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学原料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "振华股份",
+          "code": "603067",
+          "change_pct": -9.983360290527344,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "飞龙股份",
+          "code": "002536",
+          "change_pct": -9.983525276184082,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "其他电源",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "麦格米特",
+          "code": "002851",
+          "change_pct": -10.00374698638916,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通信设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "光迅科技",
+          "code": "002281",
+          "change_pct": -9.996095657348633,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电池",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "科力远",
+          "code": "600478",
+          "change_pct": -9.90099048614502,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "医疗器械",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "奥精医疗",
+          "code": "688613",
+          "change_pct": -19.970630645751953,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-03"
+}
