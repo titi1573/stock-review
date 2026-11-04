@@ -1,0 +1,130 @@
+{
+  "total_count": 10,
+  "sectors": [
+    {
+      "sector": "饮料乳品",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "泉阳泉",
+          "code": "600189",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "阳光乳业",
+          "code": "001318",
+          "change_pct": -9.974746704101562,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学纤维",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "海阳科技",
+          "code": "603382",
+          "change_pct": -9.99526309967041,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "服装家纺",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "七 匹 狼",
+          "code": "002029",
+          "change_pct": -9.970958709716797,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "农化制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "红太阳",
+          "code": "000525",
+          "change_pct": -9.960159301757812,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "工程咨询",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "华阳国际",
+          "code": "002949",
+          "change_pct": -9.97392463684082,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "百洋股份",
+          "code": "002696",
+          "change_pct": -10.032362937927246,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "家电零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "三星新材",
+          "code": "603578",
+          "change_pct": -9.992070198059082,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "医疗服务",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "澳洋健康",
+          "code": "002172",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "照明设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "阳光照明",
+          "code": "600261",
+          "change_pct": -9.8989896774292,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-04"
+}
