@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-10",
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "sh000001",
+      "price": 3663.724,
+      "change": 2.93,
+      "change_pct": 0.08
+    },
+    {
+      "name": "深证成指",
+      "code": "sz399001",
+      "price": 11241.536,
+      "change": 96.05,
+      "change_pct": 0.86
+    },
+    {
+      "name": "创业板指",
+      "code": "sz399006",
+      "price": 2494.397,
+      "change": 35.84,
+      "change_pct": 1.46
+    },
+    {
+      "name": "科创50",
+      "code": "sh000688",
+      "price": 1265.022,
+      "change": 8.06,
+      "change_pct": 0.64
+    }
+  ],
+  "market_summary": {
+    "total_turnover": 15167.58,
+    "turnover_change_pct": 0,
+    "up_count": 4273,
+    "down_count": 1149,
+    "northbound_net": 0
+  },
+  "thermometer": {
+    "label": "偏热",
+    "description": "涨停家数远超跌停，赚钱效应较强",
+    "factors": {
+      "limit_up_down_ratio": 6.2,
+      "limit_up_down_signal": "hot",
+      "max_consecutive": 7,
+      "max_consecutive_signal": "hot",
+      "up_down_ratio": 3.72,
+      "up_down_signal": "hot"
+    }
+  }
+}
