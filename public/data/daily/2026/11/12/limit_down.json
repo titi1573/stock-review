@@ -1,0 +1,71 @@
+{
+  "total_count": 5,
+  "sectors": [
+    {
+      "sector": "照明设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "得邦照明",
+          "code": "603303",
+          "change_pct": -10.003572463989258,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "休闲食品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "煌上煌",
+          "code": "002695",
+          "change_pct": -9.9634370803833,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "专用设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "中坚科技",
+          "code": "002779",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "影视院线",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "上海电影",
+          "code": "601595",
+          "change_pct": -9.9935941696167,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "塑料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "福莱新材",
+          "code": "605488",
+          "change_pct": -9.995241165161133,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12"
+}
