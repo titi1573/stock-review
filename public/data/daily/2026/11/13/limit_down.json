@@ -1,0 +1,381 @@
+{
+  "total_count": 33,
+  "sectors": [
+    {
+      "sector": "医疗服务",
+      "count": 4,
+      "stocks": [
+        {
+          "name": "百花医药",
+          "code": "600721",
+          "change_pct": -10.028116226196289,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "合富中国",
+          "code": "603122",
+          "change_pct": -9.983766555786133,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "澳洋健康",
+          "code": "002172",
+          "change_pct": -10.060060501098633,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "贝瑞基因",
+          "code": "000710",
+          "change_pct": -9.99083423614502,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "汽车零部",
+      "count": 3,
+      "stocks": [
+        {
+          "name": "长源东谷",
+          "code": "603950",
+          "change_pct": -9.986207008361816,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "襄阳轴承",
+          "code": "000678",
+          "change_pct": -9.981768608093262,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "海安集团",
+          "code": "001233",
+          "change_pct": -10.001562118530273,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "一般零售",
+      "count": 3,
+      "stocks": [
+        {
+          "name": "国芳集团",
+          "code": "601086",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "友阿股份",
+          "code": "002277",
+          "change_pct": -9.984871864318848,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "大东方",
+          "code": "600327",
+          "change_pct": -10.027854919433594,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "专用设备",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "中重科技",
+          "code": "603135",
+          "change_pct": -10.019646644592285,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "达 意 隆",
+          "code": "002209",
+          "change_pct": -10.022271156311035,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "休闲食品",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "煌上煌",
+          "code": "002695",
+          "change_pct": -9.949238777160645,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "青岛食品",
+          "code": "001219",
+          "change_pct": -9.995673179626465,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通用设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "大业股份",
+          "code": "603278",
+          "change_pct": -10.0130033493042,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "医疗器械",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "南卫股份",
+          "code": "603880",
+          "change_pct": -10.025062561035156,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "阳光乳业",
+          "code": "001318",
+          "change_pct": -10.02031135559082,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "农化制品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "红太阳",
+          "code": "000525",
+          "change_pct": -10.037175178527832,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "物流",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "东方嘉盛",
+          "code": "002889",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "元件",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "景旺电子",
+          "code": "603228",
+          "change_pct": -10.004486083984375,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "桂林三金",
+          "code": "002275",
+          "change_pct": -9.96865177154541,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "装修建材",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "鲁阳节能",
+          "code": "002088",
+          "change_pct": -9.950738906860352,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "房地产开",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "深物业A",
+          "code": "000011",
+          "change_pct": -10.021097183227539,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "食品加工",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "惠发食品",
+          "code": "603536",
+          "change_pct": -9.969325065612793,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电力",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "东方新能",
+          "code": "002310",
+          "change_pct": -9.90099048614502,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "郑中设计",
+          "code": "002811",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "照明设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "阳光照明",
+          "code": "600261",
+          "change_pct": -10.047096252441406,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "农产品加",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "金健米业",
+          "code": "600127",
+          "change_pct": -10.009182929992676,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "水泥",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "福建水泥",
+          "code": "600802",
+          "change_pct": -10.011641502380371,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "光伏设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "永臻股份",
+          "code": "603381",
+          "change_pct": -10.01329231262207,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "工业金属",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "闽发铝业",
+          "code": "002578",
+          "change_pct": -9.933774948120117,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "百洋股份",
+          "code": "002696",
+          "change_pct": -10.017123222351074,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "出版",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "新华传媒",
+          "code": "600825",
+          "change_pct": -10.020590782165527,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-13"
+}
