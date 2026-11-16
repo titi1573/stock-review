@@ -1,0 +1,550 @@
+{
+  "total_count": 32,
+  "sectors": [
+    {
+      "sector": "一般零售",
+      "count": 3,
+      "max_consecutive": 3,
+      "leader": {
+        "name": "广百股份",
+        "code": "002187",
+        "consecutive": 3
+      },
+      "stocks": [
+        {
+          "name": "广百股份",
+          "code": "002187",
+          "consecutive": 3,
+          "change_pct": 10.043041229248047,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "天虹股份",
+          "code": "002419",
+          "consecutive": 1,
+          "change_pct": 9.979633331298828,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "鹏飞绿能",
+          "code": "002356",
+          "consecutive": 1,
+          "change_pct": 10.043667793273926,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "电池",
+      "count": 3,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "野马电池",
+        "code": "605378",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "野马电池",
+          "code": "605378",
+          "consecutive": 1,
+          "change_pct": 9.992913246154785,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "紫竹高科",
+          "code": "002058",
+          "consecutive": 1,
+          "change_pct": 10.019646644592285,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "领湃科技",
+          "code": "300530",
+          "consecutive": 1,
+          "change_pct": 20.008625030517578,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 2,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "凯撒文化",
+        "code": "002425",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "凯撒文化",
+          "code": "002425",
+          "consecutive": 2,
+          "change_pct": 10.1010103225708,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "文投控股",
+          "code": "600715",
+          "consecutive": 2,
+          "change_pct": 10.0,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "汽车服务",
+      "count": 2,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "上海物贸",
+        "code": "600822",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "上海物贸",
+          "code": "600822",
+          "consecutive": 1,
+          "change_pct": 10.011641502380371,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "北巴传媒",
+          "code": "600386",
+          "consecutive": 1,
+          "change_pct": 10.115607261657715,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "电视广播",
+      "count": 2,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "吉视传媒",
+        "code": "601929",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "吉视传媒",
+          "code": "601929",
+          "consecutive": 1,
+          "change_pct": 10.037175178527832,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "华数传媒",
+          "code": "000156",
+          "consecutive": 1,
+          "change_pct": 10.051546096801758,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "小家电",
+      "count": 2,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "小熊电器",
+        "code": "002959",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "小熊电器",
+          "code": "002959",
+          "consecutive": 1,
+          "change_pct": 10.009099960327148,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "北鼎股份",
+          "code": "300824",
+          "consecutive": 1,
+          "change_pct": 19.944211959838867,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "炼化及贸",
+      "count": 1,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "岳阳兴长",
+        "code": "000819",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "岳阳兴长",
+          "code": "000819",
+          "consecutive": 2,
+          "change_pct": 9.984399795532227,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "通信服务",
+      "count": 1,
+      "max_consecutive": 4,
+      "leader": {
+        "name": "北纬科技",
+        "code": "002148",
+        "consecutive": 4
+      },
+      "stocks": [
+        {
+          "name": "北纬科技",
+          "code": "002148",
+          "consecutive": 4,
+          "change_pct": 10.06289291381836,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "影视院线",
+      "count": 1,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "金逸影视",
+        "code": "002905",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "金逸影视",
+          "code": "002905",
+          "consecutive": 2,
+          "change_pct": 10.0,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "金新农",
+        "code": "002548",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "金新农",
+          "code": "002548",
+          "consecutive": 2,
+          "change_pct": 9.921670913696289,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "工程机械",
+      "count": 1,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "华东重机",
+        "code": "002685",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "华东重机",
+          "code": "002685",
+          "consecutive": 2,
+          "change_pct": 9.9277982711792,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "水泥",
+      "count": 1,
+      "max_consecutive": 3,
+      "leader": {
+        "name": "国统股份",
+        "code": "002205",
+        "consecutive": 3
+      },
+      "stocks": [
+        {
+          "name": "国统股份",
+          "code": "002205",
+          "consecutive": 3,
+          "change_pct": 9.976798057556152,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "龙江交通",
+        "code": "601188",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "龙江交通",
+          "code": "601188",
+          "consecutive": 1,
+          "change_pct": 10.0,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "北投科技",
+        "code": "600936",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "北投科技",
+          "code": "600936",
+          "consecutive": 1,
+          "change_pct": 10.13698673248291,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "白色家电",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "长虹美菱",
+        "code": "000521",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "长虹美菱",
+          "code": "000521",
+          "consecutive": 1,
+          "change_pct": 9.948979377746582,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "厨卫电器",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "华帝股份",
+        "code": "002035",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "华帝股份",
+          "code": "002035",
+          "consecutive": 1,
+          "change_pct": 10.117647171020508,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "阳光乳业",
+        "code": "001318",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "阳光乳业",
+          "code": "001318",
+          "consecutive": 1,
+          "change_pct": 10.007524490356445,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "化学原料",
+      "count": 1,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "世龙实业",
+        "code": "002748",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "世龙实业",
+          "code": "002748",
+          "consecutive": 2,
+          "change_pct": 10.008070945739746,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "化妆品",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "丸美生物",
+        "code": "603983",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "丸美生物",
+          "code": "603983",
+          "consecutive": 1,
+          "change_pct": 10.0,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "电网设备",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "顺钠股份",
+        "code": "000533",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "顺钠股份",
+          "code": "000533",
+          "consecutive": 1,
+          "change_pct": 9.966405868530273,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "电力",
+      "count": 1,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "新能股份",
+        "code": "000595",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "新能股份",
+          "code": "000595",
+          "consecutive": 2,
+          "change_pct": 9.94575023651123,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "房屋建设",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "高新发展",
+        "code": "000628",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "高新发展",
+          "code": "000628",
+          "consecutive": 1,
+          "change_pct": 9.995274543762207,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "通信设备",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "共进股份",
+        "code": "603118",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "共进股份",
+          "code": "603118",
+          "consecutive": 1,
+          "change_pct": 10.022438049316406,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "消费电子",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "瀛通通讯",
+        "code": "002861",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "瀛通通讯",
+          "code": "002861",
+          "consecutive": 1,
+          "change_pct": 10.032362937927246,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-16"
+}
