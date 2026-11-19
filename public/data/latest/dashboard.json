@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "indices": [
     {
       "name": "上证指数",
@@ -38,12 +38,12 @@
     "northbound_net": 0
   },
   "thermometer": {
-    "label": "中性",
-    "description": "市场多空力量均衡",
+    "label": "偏冷",
+    "description": "跌停家数偏多，市场情绪低迷",
     "factors": {
-      "limit_up_down_ratio": 1.02,
-      "limit_up_down_signal": "neutral",
-      "max_consecutive": 4,
+      "limit_up_down_ratio": 0.34,
+      "limit_up_down_signal": "cold",
+      "max_consecutive": 3,
       "max_consecutive_signal": "neutral",
       "up_down_ratio": 0.32,
       "up_down_signal": "cold"
