@@ -1,0 +1,622 @@
+{
+  "total_count": 58,
+  "sectors": [
+    {
+      "sector": "汽车零部",
+      "count": 5,
+      "stocks": [
+        {
+          "name": "凯众股份",
+          "code": "603037",
+          "change_pct": -9.98116683959961,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "三联锻造",
+          "code": "001282",
+          "change_pct": -9.974260330200195,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "新泉股份",
+          "code": "603179",
+          "change_pct": -9.988137245178223,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "华达科技",
+          "code": "603358",
+          "change_pct": -9.985475540161133,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "天普股份",
+          "code": "605255",
+          "change_pct": -9.993979454040527,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通用设备",
+      "count": 5,
+      "stocks": [
+        {
+          "name": "宇环数控",
+          "code": "002903",
+          "change_pct": -10.009488105773926,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "腾达科技",
+          "code": "001379",
+          "change_pct": -10.006414413452148,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "川润股份",
+          "code": "002272",
+          "change_pct": -10.008779525756836,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "国机精工",
+          "code": "002046",
+          "change_pct": -10.00971794128418,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "泰嘉股份",
+          "code": "002843",
+          "change_pct": -9.9935941696167,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "小家电",
+      "count": 4,
+      "stocks": [
+        {
+          "name": "彩虹集团",
+          "code": "003023",
+          "change_pct": -10.015174865722656,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "比依股份",
+          "code": "603215",
+          "change_pct": -10.00621509552002,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "爱仕达",
+          "code": "002403",
+          "change_pct": -9.980430603027344,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "小熊电器",
+          "code": "002959",
+          "change_pct": -10.008028030395508,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学制品",
+      "count": 3,
+      "stocks": [
+        {
+          "name": "巨化股份",
+          "code": "600160",
+          "change_pct": -10.01017951965332,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "北化股份",
+          "code": "002246",
+          "change_pct": -10.0204496383667,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "联合化学",
+          "code": "301209",
+          "change_pct": -19.99308204650879,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "消费电子",
+      "count": 3,
+      "stocks": [
+        {
+          "name": "国光电器",
+          "code": "002045",
+          "change_pct": -9.977578163146973,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "瀛通通讯",
+          "code": "002861",
+          "change_pct": -10.032102584838867,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "科森科技",
+          "code": "603626",
+          "change_pct": -10.008305549621582,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "自动化设",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "赛腾股份",
+          "code": "603283",
+          "change_pct": -10.00259780883789,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "亿嘉和",
+          "code": "603666",
+          "change_pct": -9.996095657348633,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "装修建材",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "华立股份",
+          "code": "603038",
+          "change_pct": -9.967845916748047,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "扬子新材",
+          "code": "002652",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通信服务",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "中通国脉",
+          "code": "603559",
+          "change_pct": -10.055096626281738,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "国安股份",
+          "code": "000839",
+          "change_pct": -10.15625,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "恺英网络",
+          "code": "002517",
+          "change_pct": -9.993247985839844,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "凯撒文化",
+          "code": "002425",
+          "change_pct": -10.079575538635254,
+          "consecutive_down": 3,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "一般零售",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "汇通能源",
+          "code": "600605",
+          "change_pct": -10.008038520812988,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "广百股份",
+          "code": "002187",
+          "change_pct": -10.060976028442383,
+          "consecutive_down": 3,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "金海通",
+          "code": "603061",
+          "change_pct": -9.999510765075684,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "通富微电",
+          "code": "002156",
+          "change_pct": -10.004537582397461,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "医疗器械",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "九安医疗",
+          "code": "002432",
+          "change_pct": -9.994528770446777,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        },
+        {
+          "name": "正川股份",
+          "code": "603976",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "通信设备",
+      "count": 2,
+      "stocks": [
+        {
+          "name": "共进股份",
+          "code": "603118",
+          "change_pct": -9.98593521118164,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        },
+        {
+          "name": "星网锐捷",
+          "code": "002396",
+          "change_pct": -9.977827072143555,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "物流",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "原尚股份",
+          "code": "603813",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "家居用品",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "曲美家居",
+          "code": "603818",
+          "change_pct": -9.90099048614502,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "家电零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "康盛股份",
+          "code": "002418",
+          "change_pct": -9.950248718261719,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "计算机设",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "苏州科达",
+          "code": "603660",
+          "change_pct": -9.941520690917969,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学原料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "双环科技",
+          "code": "000707",
+          "change_pct": -9.89011001586914,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "房地产开",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "张江高科",
+          "code": "600895",
+          "change_pct": -10.00735855102539,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "饲料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "邦基科技",
+          "code": "603151",
+          "change_pct": -9.980334281921387,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "旅游及景",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "大连圣亚",
+          "code": "600593",
+          "change_pct": -9.990720748901367,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学制药",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "通化金马",
+          "code": "000766",
+          "change_pct": -10.027100563049316,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "软件开发",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "天融信",
+          "code": "002212",
+          "change_pct": -10.05385971069336,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "工程咨询",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "华建集团",
+          "code": "600629",
+          "change_pct": -10.021171569824219,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "航空装备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "洪都航空",
+          "code": "600316",
+          "change_pct": -10.013717651367188,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电网设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "顺钠股份",
+          "code": "000533",
+          "change_pct": -10.010427474975586,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "全筑股份",
+          "code": "603030",
+          "change_pct": -9.829059600830078,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "包装印刷",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "大胜达",
+          "code": "603687",
+          "change_pct": -10.007305145263672,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "白色家电",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "澳柯玛",
+          "code": "600336",
+          "change_pct": -9.98307991027832,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "基础建设",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "大千生态",
+          "code": "603955",
+          "change_pct": -9.983415603637695,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "其他电子",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "深圳华强",
+          "code": "000062",
+          "change_pct": -10.015174865722656,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "照明设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "阳光照明",
+          "code": "600261",
+          "change_pct": -9.956709861755371,
+          "consecutive_down": 3,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "专用设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "林州重机",
+          "code": "002535",
+          "change_pct": -9.963099479675293,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "综合Ⅱ",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "群兴玩具",
+          "code": "002575",
+          "change_pct": -10.0401611328125,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "鸿博股份",
+          "code": "002229",
+          "change_pct": -10.0,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-20"
+}

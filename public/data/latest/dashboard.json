@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "indices": [
     {
       "name": "上证指数",
@@ -41,9 +41,9 @@
     "label": "偏冷",
     "description": "跌停家数偏多，市场情绪低迷",
     "factors": {
-      "limit_up_down_ratio": 0.34,
+      "limit_up_down_ratio": 0.48,
       "limit_up_down_signal": "cold",
-      "max_consecutive": 3,
+      "max_consecutive": 4,
       "max_consecutive_signal": "neutral",
       "up_down_ratio": 0.32,
       "up_down_signal": "cold"
