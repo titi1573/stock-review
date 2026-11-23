@@ -1,0 +1,45 @@
+{
+  "total_count": 3,
+  "sectors": [
+    {
+      "sector": "化学纤维",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "彩蝶实业",
+          "code": "603073",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "医疗器械",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "正川股份",
+          "code": "603976",
+          "change_pct": -10.0,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "华达科技",
+          "code": "603358",
+          "change_pct": -10.004034042358398,
+          "consecutive_down": 3,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-23"
+}
