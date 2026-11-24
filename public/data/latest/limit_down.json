@@ -1,13 +1,13 @@
 {
-  "total_count": 3,
+  "total_count": 2,
   "sectors": [
     {
-      "sector": "化学纤维",
+      "sector": "工业金属",
       "count": 1,
       "stocks": [
         {
-          "name": "彩蝶实业",
-          "code": "603073",
+          "name": "鑫铂股份",
+          "code": "003038",
           "change_pct": -10.0,
           "consecutive_down": 1,
           "reason": "待分析"
@@ -15,31 +15,18 @@
       ]
     },
     {
-      "sector": "医疗器械",
+      "sector": "化学原料",
       "count": 1,
       "stocks": [
         {
-          "name": "正川股份",
-          "code": "603976",
+          "name": "英 力 特",
+          "code": "000635",
           "change_pct": -10.0,
-          "consecutive_down": 2,
-          "reason": "待分析"
-        }
-      ]
-    },
-    {
-      "sector": "汽车零部",
-      "count": 1,
-      "stocks": [
-        {
-          "name": "华达科技",
-          "code": "603358",
-          "change_pct": -10.004034042358398,
-          "consecutive_down": 3,
+          "consecutive_down": 1,
           "reason": "待分析"
         }
       ]
     }
   ],
-  "date": "2026-11-23"
+  "date": "2026-11-24"
 }

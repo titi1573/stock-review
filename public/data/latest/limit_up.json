@@ -1,197 +1,77 @@
 {
-  "total_count": 146,
+  "total_count": 55,
   "sectors": [
     {
       "sector": "汽车零部",
-      "count": 23,
-      "max_consecutive": 2,
+      "count": 8,
+      "max_consecutive": 3,
       "leader": {
         "name": "克来机电",
         "code": "603960",
-        "consecutive": 2
+        "consecutive": 3
       },
       "stocks": [
         {
-          "name": "克来机电",
-          "code": "603960",
+          "name": "一彬科技",
+          "code": "001278",
           "consecutive": 2,
-          "change_pct": 10.021474838256836,
+          "change_pct": 9.977662086486816,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
           "name": "光洋股份",
           "code": "002708",
-          "consecutive": 1,
-          "change_pct": 10.010482788085938,
+          "consecutive": 2,
+          "change_pct": 10.00476360321045,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "一彬科技",
-          "code": "001278",
-          "consecutive": 1,
-          "change_pct": 9.991809844970703,
+          "name": "克来机电",
+          "code": "603960",
+          "consecutive": 3,
+          "change_pct": 10.019518852233887,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
           "name": "长华集团",
           "code": "605018",
-          "consecutive": 2,
-          "change_pct": 10.038986206054688,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "浙江世宝",
-          "code": "002703",
-          "consecutive": 1,
-          "change_pct": 9.992193222045898,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "新泉股份",
-          "code": "603179",
-          "consecutive": 1,
-          "change_pct": 9.989457130432129,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "菱电电控",
-          "code": "688667",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "肇民科技",
-          "code": "301000",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "浙江荣泰",
-          "code": "603119",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "XD新坐标",
-          "code": "603040",
-          "consecutive": 1,
-          "change_pct": 10.009976387023926,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "凯众股份",
-          "code": "603037",
-          "consecutive": 1,
-          "change_pct": 10.041841506958008,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "模塑科技",
-          "code": "000700",
-          "consecutive": 1,
-          "change_pct": 9.992372512817383,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "捷众科技",
-          "code": "920690",
-          "consecutive": 1,
-          "change_pct": 29.98853302001953,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "拓普集团",
-          "code": "601689",
-          "consecutive": 1,
-          "change_pct": 9.997920989990234,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "日盈电子",
-          "code": "603286",
-          "consecutive": 1,
-          "change_pct": 10.00224781036377,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "北特科技",
-          "code": "603009",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "福赛科技",
-          "code": "301529",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "万向钱潮",
-          "code": "000559",
-          "consecutive": 1,
-          "change_pct": 10.031347274780273,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "浙江黎明",
-          "code": "603048",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "福达股份",
-          "code": "603166",
-          "consecutive": 1,
-          "change_pct": 9.966405868530273,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "旭升集团",
-          "code": "603305",
-          "consecutive": 1,
-          "change_pct": 9.970958709716797,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "襄阳轴承",
-          "code": "000678",
-          "consecutive": 1,
-          "change_pct": 10.011778831481934,
+          "consecutive": 3,
+          "change_pct": 10.008857727050781,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
           "name": "铁流股份",
           "code": "603926",
+          "consecutive": 2,
+          "change_pct": 10.033670425415039,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "新坐标",
+          "code": "603040",
+          "consecutive": 2,
+          "change_pct": 10.006046295166016,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "雷迪克",
+          "code": "300652",
           "consecutive": 1,
-          "change_pct": 10.0,
+          "change_pct": 19.98348617553711,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "天龙股份",
+          "code": "603266",
+          "consecutive": 1,
+          "change_pct": 9.99254322052002,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -199,431 +79,87 @@
     },
     {
       "sector": "通用设备",
-      "count": 15,
+      "count": 5,
       "max_consecutive": 2,
       "leader": {
-        "name": "冰山冷热",
-        "code": "000530",
+        "name": "汇洲智能",
+        "code": "002122",
         "consecutive": 2
       },
       "stocks": [
         {
+          "name": "汇洲智能",
+          "code": "002122",
+          "consecutive": 2,
+          "change_pct": 10.13513469696045,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
           "name": "宁波东力",
           "code": "002164",
-          "consecutive": 1,
-          "change_pct": 9.993868827819824,
+          "consecutive": 2,
+          "change_pct": 9.977703094482422,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
           "name": "锋龙股份",
           "code": "002931",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "汇洲智能",
-          "code": "002122",
-          "consecutive": 1,
-          "change_pct": 10.037175178527832,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "安培龙",
-          "code": "301413",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "恒工精密",
-          "code": "301261",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "大业股份",
-          "code": "603278",
-          "consecutive": 1,
-          "change_pct": 9.990574836730957,
+          "consecutive": 2,
+          "change_pct": 10.009420394897461,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
           "name": "柯力传感",
           "code": "603662",
-          "consecutive": 1,
-          "change_pct": 9.997716903686523,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "五洲新春",
-          "code": "603667",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "中大力德",
-          "code": "002896",
-          "consecutive": 1,
-          "change_pct": 10.008271217346191,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "华东数控",
-          "code": "002248",
-          "consecutive": 1,
-          "change_pct": 10.03911304473877,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "上海沪工",
-          "code": "603131",
-          "consecutive": 1,
-          "change_pct": 9.974640846252441,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "杭齿前进",
-          "code": "601177",
-          "consecutive": 1,
-          "change_pct": 10.008935928344727,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "汉威科技",
-          "code": "300007",
-          "consecutive": 1,
-          "change_pct": 20.01329803466797,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "国机精工",
-          "code": "002046",
-          "consecutive": 1,
-          "change_pct": 10.00719928741455,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "冰山冷热",
-          "code": "000530",
           "consecutive": 2,
-          "change_pct": 10.008136749267578,
+          "change_pct": 10.0020751953125,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "安培龙",
+          "code": "301413",
+          "consecutive": 2,
+          "change_pct": 19.997323989868164,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "元件",
-      "count": 7,
-      "max_consecutive": 3,
-      "leader": {
-        "name": "中京电子",
-        "code": "002579",
-        "consecutive": 3
-      },
-      "stocks": [
-        {
-          "name": "中京电子",
-          "code": "002579",
-          "consecutive": 3,
-          "change_pct": 10.007468223571777,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "崇达技术",
-          "code": "002815",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "东晶电子",
-          "code": "002199",
-          "consecutive": 2,
-          "change_pct": 10.052909851074219,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "世运电路",
-          "code": "603920",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "奥士康",
-          "code": "002913",
-          "consecutive": 1,
-          "change_pct": 10.003630638122559,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "超颖电子",
-          "code": "603175",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "风华高科",
-          "code": "000636",
-          "consecutive": 1,
-          "change_pct": 10.018975257873535,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "专用设备",
-      "count": 7,
+      "sector": "服装家纺",
+      "count": 3,
       "max_consecutive": 1,
       "leader": {
-        "name": "天奇股份",
-        "code": "002009",
+        "name": "奥康国际",
+        "code": "603001",
         "consecutive": 1
       },
       "stocks": [
         {
-          "name": "天奇股份",
-          "code": "002009",
+          "name": "奥康国际",
+          "code": "603001",
           "consecutive": 1,
-          "change_pct": 10.030165672302246,
+          "change_pct": 10.05434799194336,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "北矿科技",
-          "code": "600980",
+          "name": "红豆股份",
+          "code": "600400",
           "consecutive": 1,
-          "change_pct": 9.980039596557617,
+          "change_pct": 10.030394554138184,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "南矿集团",
-          "code": "001360",
+          "name": "天创股份",
+          "code": "603608",
           "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "永创智能",
-          "code": "603901",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "江顺科技",
-          "code": "001400",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "杰克科技",
-          "code": "603337",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "新时达",
-          "code": "002527",
-          "consecutive": 1,
-          "change_pct": 10.011641502380371,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "自动化设",
-      "count": 6,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "亿嘉和",
-        "code": "603666",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "亿嘉和",
-          "code": "603666",
-          "consecutive": 1,
-          "change_pct": 10.02169132232666,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "凯迪股份",
-          "code": "605288",
-          "consecutive": 1,
-          "change_pct": 10.007538795471191,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "宏英智能",
-          "code": "001266",
-          "consecutive": 1,
-          "change_pct": 10.007468223571777,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "赛腾股份",
-          "code": "603283",
-          "consecutive": 1,
-          "change_pct": 9.988452911376953,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "埃斯顿",
-          "code": "002747",
-          "consecutive": 1,
-          "change_pct": 10.020618438720703,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "宇树科技-W",
-          "code": "688836",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "IT服务Ⅱ",
-      "count": 5,
-      "max_consecutive": 5,
-      "leader": {
-        "name": "真视通",
-        "code": "002771",
-        "consecutive": 5
-      },
-      "stocks": [
-        {
-          "name": "真视通",
-          "code": "002771",
-          "consecutive": 5,
-          "change_pct": 9.987358093261719,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "荣联科技",
-          "code": "002642",
-          "consecutive": 2,
-          "change_pct": 10.055096626281738,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "新炬网络",
-          "code": "605398",
-          "consecutive": 1,
-          "change_pct": 9.99456787109375,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "博汇科技",
-          "code": "688004",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "华是科技",
-          "code": "301218",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "化学制品",
-      "count": 5,
-      "max_consecutive": 2,
-      "leader": {
-        "name": "鼎龙科技",
-        "code": "603004",
-        "consecutive": 2
-      },
-      "stocks": [
-        {
-          "name": "金丹科技",
-          "code": "300829",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "兴欣新材",
-          "code": "001358",
-          "consecutive": 1,
-          "change_pct": 10.019047737121582,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "怡达股份",
-          "code": "300721",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "鼎龙科技",
-          "code": "603004",
-          "consecutive": 2,
-          "change_pct": 9.989023208618164,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "鹿山新材",
-          "code": "603051",
-          "consecutive": 1,
-          "change_pct": 10.0,
+          "change_pct": 10.036101341247559,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -631,211 +167,27 @@
     },
     {
       "sector": "计算机设",
-      "count": 4,
-      "max_consecutive": 1,
+      "count": 2,
+      "max_consecutive": 2,
       "leader": {
         "name": "魅视科技",
         "code": "001229",
-        "consecutive": 1
+        "consecutive": 2
       },
       "stocks": [
         {
           "name": "魅视科技",
           "code": "001229",
-          "consecutive": 1,
-          "change_pct": 10.0039701461792,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "维海德",
-          "code": "301318",
-          "consecutive": 1,
-          "change_pct": 20.01114845275879,
+          "consecutive": 2,
+          "change_pct": 9.996391296386719,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
           "name": "淳中科技",
           "code": "603516",
-          "consecutive": 1,
-          "change_pct": 10.012121200561523,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "维宏股份",
-          "code": "300508",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "塑料",
-      "count": 4,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "福莱新材",
-        "code": "605488",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "福莱新材",
-          "code": "605488",
-          "consecutive": 1,
-          "change_pct": 9.995296478271484,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "海正生材",
-          "code": "688203",
-          "consecutive": 1,
-          "change_pct": 19.96542739868164,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "上纬新材",
-          "code": "688585",
-          "consecutive": 1,
-          "change_pct": 19.998659133911133,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "瑞丰高材",
-          "code": "300243",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "影视院线",
-      "count": 4,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "横店影视",
-        "code": "603103",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "横店影视",
-          "code": "603103",
-          "consecutive": 1,
-          "change_pct": 10.006627082824707,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "上海电影",
-          "code": "601595",
-          "consecutive": 1,
-          "change_pct": 10.013531684875488,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "慈文传媒",
-          "code": "002343",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "博纳影业",
-          "code": "001330",
-          "consecutive": 1,
-          "change_pct": 9.919028282165527,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "电机Ⅱ",
-      "count": 4,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "华阳智能",
-        "code": "301502",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "华阳智能",
-          "code": "301502",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "兆威机电",
-          "code": "003021",
-          "consecutive": 1,
-          "change_pct": 9.996095657348633,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "鸣志电器",
-          "code": "603728",
-          "consecutive": 1,
-          "change_pct": 9.99550724029541,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "大洋电机",
-          "code": "002249",
-          "consecutive": 1,
-          "change_pct": 9.932659149169922,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "燃气Ⅱ",
-      "count": 3,
-      "max_consecutive": 2,
-      "leader": {
-        "name": "德龙汇能",
-        "code": "000593",
-        "consecutive": 2
-      },
-      "stocks": [
-        {
-          "name": "德龙汇能",
-          "code": "000593",
           "consecutive": 2,
-          "change_pct": 9.99428939819336,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "东方环宇",
-          "code": "603706",
-          "consecutive": 1,
-          "change_pct": 9.981430053710938,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "胜通能源",
-          "code": "001331",
-          "consecutive": 1,
-          "change_pct": 10.0,
+          "change_pct": 10.004406929016113,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -843,35 +195,83 @@
     },
     {
       "sector": "光学光电",
-      "count": 3,
-      "max_consecutive": 1,
+      "count": 2,
+      "max_consecutive": 2,
       "leader": {
         "name": "联创电子",
         "code": "002036",
-        "consecutive": 1
+        "consecutive": 2
       },
       "stocks": [
         {
           "name": "联创电子",
           "code": "002036",
-          "consecutive": 1,
-          "change_pct": 9.932279586791992,
+          "consecutive": 2,
+          "change_pct": 10.061601638793945,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "芯瑞达",
-          "code": "002983",
+          "name": "维信诺",
+          "code": "002387",
           "consecutive": 1,
-          "change_pct": 9.995596885681152,
+          "change_pct": 10.017271041870117,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "文娱用品",
+      "count": 2,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "创源股份",
+        "code": "300703",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "创源股份",
+          "code": "300703",
+          "consecutive": 2,
+          "change_pct": 19.98381996154785,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "宇顺电子",
-          "code": "002289",
+          "name": "高乐股份",
+          "code": "002348",
           "consecutive": 1,
-          "change_pct": 10.017762184143066,
+          "change_pct": 10.02538013458252,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "家居用品",
+      "count": 2,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "艾芬达",
+        "code": "301575",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "艾芬达",
+          "code": "301575",
+          "consecutive": 2,
+          "change_pct": 20.013946533203125,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "天安新材",
+          "code": "603725",
+          "consecutive": 1,
+          "change_pct": 10.032715797424316,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -879,263 +279,111 @@
     },
     {
       "sector": "消费电子",
-      "count": 3,
-      "max_consecutive": 1,
+      "count": 2,
+      "max_consecutive": 2,
       "leader": {
         "name": "科森科技",
         "code": "603626",
-        "consecutive": 1
+        "consecutive": 2
       },
       "stocks": [
         {
           "name": "科森科技",
           "code": "603626",
-          "consecutive": 1,
-          "change_pct": 10.01384449005127,
+          "consecutive": 2,
+          "change_pct": 9.983221054077148,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "国光电器",
-          "code": "002045",
+          "name": "奥尼电子",
+          "code": "301189",
           "consecutive": 1,
-          "change_pct": 9.962639808654785,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "共达电声",
-          "code": "002655",
-          "consecutive": 1,
-          "change_pct": 10.013654708862305,
+          "change_pct": 20.01097869873047,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "环境治理",
-      "count": 3,
+      "sector": "专用设备",
+      "count": 2,
       "max_consecutive": 1,
       "leader": {
-        "name": "德林海",
-        "code": "688069",
+        "name": "威派格",
+        "code": "603956",
         "consecutive": 1
       },
       "stocks": [
         {
-          "name": "德林海",
-          "code": "688069",
+          "name": "威派格",
+          "code": "603956",
           "consecutive": 1,
-          "change_pct": 19.991308212280273,
+          "change_pct": 10.035211563110352,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "京蓝科技",
-          "code": "000711",
+          "name": "东方精工",
+          "code": "002611",
           "consecutive": 1,
-          "change_pct": 10.10362720489502,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "华新科技",
-          "code": "301265",
-          "consecutive": 1,
-          "change_pct": 19.990318298339844,
+          "change_pct": 10.041152000427246,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "医疗服务",
-      "count": 3,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "澳洋健康",
-        "code": "002172",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "澳洋健康",
-          "code": "002172",
-          "consecutive": 1,
-          "change_pct": 10.085836410522461,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "创新医疗",
-          "code": "002173",
-          "consecutive": 1,
-          "change_pct": 10.015290260314941,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "昭衍新药",
-          "code": "603127",
-          "consecutive": 1,
-          "change_pct": 9.993792533874512,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "一般零售",
-      "count": 3,
+      "sector": "塑料",
+      "count": 2,
       "max_consecutive": 2,
       "leader": {
-        "name": "大东方",
-        "code": "600327",
+        "name": "福莱新材",
+        "code": "605488",
         "consecutive": 2
       },
       "stocks": [
         {
-          "name": "上海九百",
-          "code": "600838",
-          "consecutive": 1,
-          "change_pct": 10.026385307312012,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "杭州解百",
-          "code": "600814",
-          "consecutive": 1,
-          "change_pct": 10.047846794128418,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "大东方",
-          "code": "600327",
+          "name": "福莱新材",
+          "code": "605488",
           "consecutive": 2,
-          "change_pct": 9.937888145446777,
+          "change_pct": 10.006414413452148,
+          "is_st": false,
+          "is_new_stock_locked": false
+        },
+        {
+          "name": "横河精密",
+          "code": "300539",
+          "consecutive": 1,
+          "change_pct": 19.978744506835938,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "饲料",
-      "count": 3,
+      "sector": "化学制品",
+      "count": 2,
       "max_consecutive": 2,
       "leader": {
-        "name": "金新农",
-        "code": "002548",
+        "name": "兴欣新材",
+        "code": "001358",
         "consecutive": 2
       },
       "stocks": [
         {
-          "name": "百洋股份",
-          "code": "002696",
+          "name": "高争民爆",
+          "code": "002827",
           "consecutive": 1,
-          "change_pct": 10.044978141784668,
+          "change_pct": 10.0,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "金新农",
-          "code": "002548",
+          "name": "兴欣新材",
+          "code": "001358",
           "consecutive": 2,
-          "change_pct": 10.106383323669434,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "邦基科技",
-          "code": "603151",
-          "consecutive": 1,
-          "change_pct": 9.994539260864258,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "纺织制造",
-      "count": 2,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "浙文影业",
-        "code": "601599",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "浙文影业",
-          "code": "601599",
-          "consecutive": 1,
-          "change_pct": 9.939759254455566,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "华升股份",
-          "code": "600156",
-          "consecutive": 1,
-          "change_pct": 9.975062370300293,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "数字媒体",
-      "count": 2,
-      "max_consecutive": 2,
-      "leader": {
-        "name": "凡拓数创",
-        "code": "301313",
-        "consecutive": 2
-      },
-      "stocks": [
-        {
-          "name": "凡拓数创",
-          "code": "301313",
-          "consecutive": 2,
-          "change_pct": 19.996620178222656,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "掌阅科技",
-          "code": "603533",
-          "consecutive": 1,
-          "change_pct": 10.013233184814453,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "count": 2,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "瑞芯微",
-        "code": "603893",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "瑞芯微",
-          "code": "603893",
-          "consecutive": 1,
-          "change_pct": 9.997831344604492,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "敏芯股份",
-          "code": "688286",
-          "consecutive": 1,
-          "change_pct": 19.991025924682617,
+          "change_pct": 10.006925582885742,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -1144,110 +392,46 @@
     {
       "sector": "照明设备",
       "count": 2,
-      "max_consecutive": 1,
+      "max_consecutive": 2,
       "leader": {
         "name": "海洋王",
         "code": "002724",
-        "consecutive": 1
+        "consecutive": 2
       },
       "stocks": [
         {
           "name": "海洋王",
           "code": "002724",
-          "consecutive": 1,
-          "change_pct": 9.965636253356934,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "联域股份",
-          "code": "001326",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "出版",
-      "count": 2,
-      "max_consecutive": 2,
-      "leader": {
-        "name": "龙版传媒",
-        "code": "605577",
-        "consecutive": 2
-      },
-      "stocks": [
-        {
-          "name": "龙版传媒",
-          "code": "605577",
           "consecutive": 2,
-          "change_pct": 10.006176948547363,
+          "change_pct": 10.0,
           "is_st": false,
           "is_new_stock_locked": false
         },
         {
-          "name": "果麦文化",
-          "code": "301052",
+          "name": "阳光照明",
+          "code": "600261",
           "consecutive": 1,
-          "change_pct": 20.0,
+          "change_pct": 9.977324485778809,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "服装家纺",
-      "count": 2,
-      "max_consecutive": 1,
+      "sector": "元件",
+      "count": 1,
+      "max_consecutive": 4,
       "leader": {
-        "name": "乔治白",
-        "code": "002687",
-        "consecutive": 1
+        "name": "中京电子",
+        "code": "002579",
+        "consecutive": 4
       },
       "stocks": [
         {
-          "name": "乔治白",
-          "code": "002687",
-          "consecutive": 1,
-          "change_pct": 9.941520690917969,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "真爱美家",
-          "code": "003041",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "家电零部",
-      "count": 2,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "同星科技",
-        "code": "301252",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "同星科技",
-          "code": "301252",
-          "consecutive": 1,
-          "change_pct": 20.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "振邦智能",
-          "code": "003028",
-          "consecutive": 1,
-          "change_pct": 10.0,
+          "name": "中京电子",
+          "code": "002579",
+          "consecutive": 4,
+          "change_pct": 9.979633331298828,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -1255,46 +439,38 @@
     },
     {
       "sector": "化学制药",
-      "count": 2,
+      "count": 1,
       "max_consecutive": 1,
       "leader": {
-        "name": "莱美药业",
-        "code": "300006",
+        "name": "天圣制药",
+        "code": "002872",
         "consecutive": 1
       },
       "stocks": [
         {
-          "name": "莱美药业",
-          "code": "300006",
+          "name": "天圣制药",
+          "code": "002872",
           "consecutive": 1,
-          "change_pct": 20.05494499206543,
-          "is_st": false,
-          "is_new_stock_locked": false
-        },
-        {
-          "name": "通化金马",
-          "code": "000766",
-          "consecutive": 1,
-          "change_pct": 10.0401611328125,
+          "change_pct": 10.068259239196777,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "工程机械",
+      "sector": "一般零售",
       "count": 1,
-      "max_consecutive": 1,
+      "max_consecutive": 2,
       "leader": {
-        "name": "华东重机",
-        "code": "002685",
-        "consecutive": 1
+        "name": "杭州解百",
+        "code": "600814",
+        "consecutive": 2
       },
       "stocks": [
         {
-          "name": "华东重机",
-          "code": "002685",
-          "consecutive": 1,
+          "name": "杭州解百",
+          "code": "600814",
+          "consecutive": 2,
           "change_pct": 10.0,
           "is_st": false,
           "is_new_stock_locked": false
@@ -1302,40 +478,40 @@
       ]
     },
     {
-      "sector": "农产品加",
+      "sector": "纺织制造",
       "count": 1,
       "max_consecutive": 2,
       "leader": {
-        "name": "东方海洋",
-        "code": "002086",
+        "name": "浙文影业",
+        "code": "601599",
         "consecutive": 2
       },
       "stocks": [
         {
-          "name": "东方海洋",
-          "code": "002086",
+          "name": "浙文影业",
+          "code": "601599",
           "consecutive": 2,
-          "change_pct": 10.133333206176758,
+          "change_pct": 10.13698673248291,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "家居用品",
+      "sector": "影视院线",
       "count": 1,
-      "max_consecutive": 1,
+      "max_consecutive": 2,
       "leader": {
-        "name": "艾芬达",
-        "code": "301575",
-        "consecutive": 1
+        "name": "横店影视",
+        "code": "603103",
+        "consecutive": 2
       },
       "stocks": [
         {
-          "name": "艾芬达",
-          "code": "301575",
-          "consecutive": 1,
-          "change_pct": 20.0,
+          "name": "横店影视",
+          "code": "603103",
+          "consecutive": 2,
+          "change_pct": 10.0,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -1344,318 +520,58 @@
     {
       "sector": "小家电",
       "count": 1,
-      "max_consecutive": 1,
+      "max_consecutive": 2,
       "leader": {
         "name": "九阳股份",
         "code": "002242",
-        "consecutive": 1
+        "consecutive": 2
       },
       "stocks": [
         {
           "name": "九阳股份",
           "code": "002242",
-          "consecutive": 1,
-          "change_pct": 10.013812065124512,
+          "consecutive": 2,
+          "change_pct": 10.012555122375488,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "软件开发",
+      "sector": "饲料",
       "count": 1,
-      "max_consecutive": 1,
+      "max_consecutive": 3,
       "leader": {
-        "name": "多伦科技",
-        "code": "603528",
-        "consecutive": 1
+        "name": "金新农",
+        "code": "002548",
+        "consecutive": 3
       },
       "stocks": [
         {
-          "name": "多伦科技",
-          "code": "603528",
-          "consecutive": 1,
-          "change_pct": 9.929078102111816,
+          "name": "金新农",
+          "code": "002548",
+          "consecutive": 3,
+          "change_pct": 9.90338134765625,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "饰品",
+      "sector": "自动化设",
       "count": 1,
-      "max_consecutive": 1,
+      "max_consecutive": 2,
       "leader": {
-        "name": "飞亚达",
-        "code": "000026",
-        "consecutive": 1
+        "name": "亿嘉和",
+        "code": "603666",
+        "consecutive": 2
       },
       "stocks": [
         {
-          "name": "飞亚达",
-          "code": "000026",
-          "consecutive": 1,
-          "change_pct": 10.010706901550293,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "铁路公路",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "龙江交通",
-        "code": "601188",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "龙江交通",
-          "code": "601188",
-          "consecutive": 1,
-          "change_pct": 10.023866653442383,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "炼化及贸",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "岳阳兴长",
-        "code": "000819",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "岳阳兴长",
-          "code": "000819",
-          "consecutive": 1,
-          "change_pct": 10.0,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "电池",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "豪鹏科技",
-        "code": "001283",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "豪鹏科技",
-          "code": "001283",
-          "consecutive": 1,
-          "change_pct": 10.002263069152832,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "军工电子",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "高德红外",
-        "code": "002414",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "高德红外",
-          "code": "002414",
-          "consecutive": 1,
-          "change_pct": 10.042283058166504,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "装修装饰",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "德才股份",
-        "code": "605287",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "德才股份",
-          "code": "605287",
-          "consecutive": 1,
-          "change_pct": 10.003146171569824,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "造纸",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "青山纸业",
-        "code": "600103",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "青山纸业",
-          "code": "600103",
-          "consecutive": 1,
-          "change_pct": 9.968847274780273,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "电子化学",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "西陇科学",
-        "code": "002584",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "西陇科学",
-          "code": "002584",
-          "consecutive": 1,
-          "change_pct": 9.961190223693848,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "通信服务",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "北纬科技",
-        "code": "002148",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "北纬科技",
-          "code": "002148",
-          "consecutive": 1,
-          "change_pct": 10.039761543273926,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "教育",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "传智教育",
-        "code": "003032",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "传智教育",
-          "code": "003032",
-          "consecutive": 1,
-          "change_pct": 10.049627304077148,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "环保设备",
-      "count": 1,
-      "max_consecutive": 5,
-      "leader": {
-        "name": "盛剑科技",
-        "code": "603324",
-        "consecutive": 5
-      },
-      "stocks": [
-        {
-          "name": "盛剑科技",
-          "code": "603324",
-          "consecutive": 5,
-          "change_pct": 9.996391296386719,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "光伏设备",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "亚玛顿",
-        "code": "002623",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "亚玛顿",
-          "code": "002623",
-          "consecutive": 1,
-          "change_pct": 10.011848449707031,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "通信设备",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "移远通信",
-        "code": "603236",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "移远通信",
-          "code": "603236",
-          "consecutive": 1,
-          "change_pct": 10.005415916442871,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "文娱用品",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "创源股份",
-        "code": "300703",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "创源股份",
-          "code": "300703",
-          "consecutive": 1,
-          "change_pct": 20.0,
+          "name": "亿嘉和",
+          "code": "603666",
+          "consecutive": 2,
+          "change_pct": 10.015772819519043,
           "is_st": false,
           "is_new_stock_locked": false
         }
@@ -1666,121 +582,261 @@
       "count": 1,
       "max_consecutive": 1,
       "leader": {
-        "name": "杭州柯林",
-        "code": "688611",
+        "name": "起帆电缆",
+        "code": "605222",
         "consecutive": 1
       },
       "stocks": [
         {
-          "name": "杭州柯林",
-          "code": "688611",
+          "name": "起帆电缆",
+          "code": "605222",
           "consecutive": 1,
-          "change_pct": 19.99223518371582,
+          "change_pct": 9.977324485778809,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "广告营销",
+      "sector": "软件开发",
       "count": 1,
       "max_consecutive": 1,
       "leader": {
-        "name": "引力传媒",
-        "code": "603598",
+        "name": "龙软科技",
+        "code": "688078",
         "consecutive": 1
       },
       "stocks": [
         {
-          "name": "引力传媒",
-          "code": "603598",
+          "name": "龙软科技",
+          "code": "688078",
           "consecutive": 1,
-          "change_pct": 10.012063026428223,
+          "change_pct": 19.98348617553711,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "包装印刷",
+      "sector": "农产品加",
       "count": 1,
-      "max_consecutive": 1,
+      "max_consecutive": 3,
       "leader": {
-        "name": "顺灏股份",
-        "code": "002565",
-        "consecutive": 1
+        "name": "东方海洋",
+        "code": "002086",
+        "consecutive": 3
       },
       "stocks": [
         {
-          "name": "顺灏股份",
-          "code": "002565",
-          "consecutive": 1,
-          "change_pct": 10.068026542663574,
+          "name": "东方海洋",
+          "code": "002086",
+          "consecutive": 3,
+          "change_pct": 9.927360534667969,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     },
     {
-      "sector": "摩托车及",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "征和工业",
-        "code": "003033",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "征和工业",
-          "code": "003033",
-          "consecutive": 1,
-          "change_pct": 10.009587287902832,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "装修建材",
-      "count": 1,
-      "max_consecutive": 1,
-      "leader": {
-        "name": "晶雪节能",
-        "code": "301010",
-        "consecutive": 1
-      },
-      "stocks": [
-        {
-          "name": "晶雪节能",
-          "code": "301010",
-          "consecutive": 1,
-          "change_pct": 19.97918701171875,
-          "is_st": false,
-          "is_new_stock_locked": false
-        }
-      ]
-    },
-    {
-      "sector": "渔业",
+      "sector": "家电零部",
       "count": 1,
       "max_consecutive": 2,
       "leader": {
-        "name": "好当家",
-        "code": "600467",
+        "name": "同星科技",
+        "code": "301252",
         "consecutive": 2
       },
       "stocks": [
         {
-          "name": "好当家",
-          "code": "600467",
+          "name": "同星科技",
+          "code": "301252",
           "consecutive": 2,
-          "change_pct": 10.139860153198242,
+          "change_pct": 20.0,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "泉阳泉",
+        "code": "600189",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "泉阳泉",
+          "code": "600189",
+          "consecutive": 1,
+          "change_pct": 10.049627304077148,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "物流",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "原尚股份",
+        "code": "603813",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "原尚股份",
+          "code": "603813",
+          "consecutive": 1,
+          "change_pct": 9.995328903198242,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "全筑股份",
+        "code": "603030",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "全筑股份",
+          "code": "603030",
+          "consecutive": 1,
+          "change_pct": 10.232558250427246,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "农化制品",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "百傲化学",
+        "code": "603360",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "百傲化学",
+          "code": "603360",
+          "consecutive": 1,
+          "change_pct": 9.965636253356934,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "航空装备",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "利君股份",
+        "code": "002651",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "利君股份",
+          "code": "002651",
+          "consecutive": 1,
+          "change_pct": 9.954058647155762,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "通信服务",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "嘉环科技",
+        "code": "603206",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "嘉环科技",
+          "code": "603206",
+          "consecutive": 1,
+          "change_pct": 9.992372512817383,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "工程机械",
+      "count": 1,
+      "max_consecutive": 2,
+      "leader": {
+        "name": "华东重机",
+        "code": "002685",
+        "consecutive": 2
+      },
+      "stocks": [
+        {
+          "name": "华东重机",
+          "code": "002685",
+          "consecutive": 2,
+          "change_pct": 9.950860023498535,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "化学原料",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "金牛化工",
+        "code": "600722",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "金牛化工",
+          "code": "600722",
+          "consecutive": 1,
+          "change_pct": 10.036831855773926,
+          "is_st": false,
+          "is_new_stock_locked": false
+        }
+      ]
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 1,
+      "max_consecutive": 1,
+      "leader": {
+        "name": "文投控股",
+        "code": "600715",
+        "consecutive": 1
+      },
+      "stocks": [
+        {
+          "name": "文投控股",
+          "code": "600715",
+          "consecutive": 1,
+          "change_pct": 10.175437927246094,
           "is_st": false,
           "is_new_stock_locked": false
         }
       ]
     }
   ],
-  "date": "2026-11-23"
+  "date": "2026-11-24"
 }

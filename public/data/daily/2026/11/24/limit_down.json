@@ -1,0 +1,32 @@
+{
+  "total_count": 2,
+  "sectors": [
+    {
+      "sector": "工业金属",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "鑫铂股份",
+          "code": "003038",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "化学原料",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "英 力 特",
+          "code": "000635",
+          "change_pct": -10.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-24"
+}
