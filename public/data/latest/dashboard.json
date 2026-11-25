@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "indices": [
     {
       "name": "上证指数",
@@ -41,10 +41,10 @@
     "label": "中性",
     "description": "市场多空力量均衡",
     "factors": {
-      "limit_up_down_ratio": 27.5,
-      "limit_up_down_signal": "hot",
-      "max_consecutive": 4,
-      "max_consecutive_signal": "neutral",
+      "limit_up_down_ratio": 1.19,
+      "limit_up_down_signal": "neutral",
+      "max_consecutive": 5,
+      "max_consecutive_signal": "hot",
       "up_down_ratio": 0.32,
       "up_down_signal": "cold"
     }
