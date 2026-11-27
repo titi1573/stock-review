@@ -1,0 +1,71 @@
+{
+  "total_count": 5,
+  "sectors": [
+    {
+      "sector": "自动化设",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "鼎智科技",
+          "code": "920593",
+          "change_pct": -30.000001907348633,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "电池",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "野马电池",
+          "code": "605378",
+          "change_pct": -10.013531684875488,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "一彬科技",
+          "code": "001278",
+          "change_pct": -10.014103889465332,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "软件开发",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "信息发展",
+          "code": "300469",
+          "change_pct": -20.0,
+          "consecutive_down": 1,
+          "reason": "待分析"
+        }
+      ]
+    },
+    {
+      "sector": "专用设备",
+      "count": 1,
+      "stocks": [
+        {
+          "name": "力聚热能",
+          "code": "603391",
+          "change_pct": -9.996816635131836,
+          "consecutive_down": 2,
+          "reason": "待分析"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-27"
+}

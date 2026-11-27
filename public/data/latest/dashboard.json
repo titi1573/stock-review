@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "indices": [
     {
       "name": "上证指数",
@@ -31,22 +31,22 @@
     }
   ],
   "market_summary": {
-    "total_turnover": 14675.33,
+    "total_turnover": 20172.82,
     "turnover_change_pct": 0,
-    "up_count": 1326,
-    "down_count": 4119,
+    "up_count": 5382,
+    "down_count": 181,
     "northbound_net": 0
   },
   "thermometer": {
     "label": "偏热",
     "description": "涨停家数远超跌停，赚钱效应较强",
     "factors": {
-      "limit_up_down_ratio": 13.0,
+      "limit_up_down_ratio": 83.4,
       "limit_up_down_signal": "hot",
-      "max_consecutive": 5,
+      "max_consecutive": 6,
       "max_consecutive_signal": "hot",
-      "up_down_ratio": 0.32,
-      "up_down_signal": "cold"
+      "up_down_ratio": 29.73,
+      "up_down_signal": "hot"
     }
   }
 }

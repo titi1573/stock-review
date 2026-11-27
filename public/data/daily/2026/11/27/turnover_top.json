@@ -1,0 +1,406 @@
+{
+  "date": "2026-11-27",
+  "total_eligible": 5576,
+  "items": [
+    {
+      "name": "中际旭创",
+      "code": "300308",
+      "turnover": 333.97,
+      "change_pct": 19.98,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "新易盛",
+      "code": "300502",
+      "turnover": 269.24,
+      "change_pct": 20.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "长鑫科技",
+      "code": "688825",
+      "turnover": 185.64,
+      "change_pct": 12.97,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "寒武纪",
+      "code": "688256",
+      "turnover": 185.0,
+      "change_pct": 18.68,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "宁德时代",
+      "code": "300750",
+      "turnover": 152.3,
+      "change_pct": 5.71,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "天孚通信",
+      "code": "300394",
+      "turnover": 137.26,
+      "change_pct": 19.8,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "中芯国际",
+      "code": "688981",
+      "turnover": 123.07,
+      "change_pct": 15.38,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "东山精密",
+      "code": "002384",
+      "turnover": 121.78,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "胜宏科技",
+      "code": "300476",
+      "turnover": 100.22,
+      "change_pct": 15.08,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "工业富联",
+      "code": "601138",
+      "turnover": 91.17,
+      "change_pct": 9.12,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "沪电股份",
+      "code": "002463",
+      "turnover": 90.88,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "兆易创新",
+      "code": "603986",
+      "turnover": 90.33,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "东方财富",
+      "code": "300059",
+      "turnover": 88.86,
+      "change_pct": 9.13,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "紫金矿业",
+      "code": "601899",
+      "turnover": 88.76,
+      "change_pct": 4.63,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "中微公司",
+      "code": "688012",
+      "turnover": 87.14,
+      "change_pct": 20.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "生益科技",
+      "code": "600183",
+      "turnover": 86.1,
+      "change_pct": 10.01,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "华虹宏力",
+      "code": "688347",
+      "turnover": 79.07,
+      "change_pct": 20.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "京东方Ａ",
+      "code": "000725",
+      "turnover": 78.95,
+      "change_pct": 6.67,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "海光信息",
+      "code": "688041",
+      "turnover": 73.77,
+      "change_pct": 18.05,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "澜起科技",
+      "code": "688008",
+      "turnover": 70.13,
+      "change_pct": 15.69,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "源杰科技",
+      "code": "688498",
+      "turnover": 69.81,
+      "change_pct": 20.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "立讯精密",
+      "code": "002475",
+      "turnover": 63.15,
+      "change_pct": 9.05,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "九阳股份",
+      "code": "002242",
+      "turnover": 62.84,
+      "change_pct": 0.6,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "北方华创",
+      "code": "002371",
+      "turnover": 60.56,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "招商银行",
+      "code": "600036",
+      "turnover": 60.49,
+      "change_pct": -1.84,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "长川科技",
+      "code": "300604",
+      "turnover": 60.18,
+      "change_pct": 20.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "药明康德",
+      "code": "603259",
+      "turnover": 60.01,
+      "change_pct": 4.76,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "亨通光电",
+      "code": "600487",
+      "turnover": 58.56,
+      "change_pct": 10.01,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "贵州茅台",
+      "code": "600519",
+      "turnover": 58.49,
+      "change_pct": 0.23,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "华胜天成",
+      "code": "600410",
+      "turnover": 55.56,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "中国巨石",
+      "code": "600176",
+      "turnover": 55.35,
+      "change_pct": 9.98,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "宇树科技-W",
+      "code": "688836",
+      "turnover": 54.45,
+      "change_pct": 19.92,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "阳光电源",
+      "code": "300274",
+      "turnover": 54.42,
+      "change_pct": 9.28,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "长江电力",
+      "code": "600900",
+      "turnover": 54.31,
+      "change_pct": -1.82,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "盛合晶微",
+      "code": "688820",
+      "turnover": 48.63,
+      "change_pct": 20.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "协创数据",
+      "code": "300857",
+      "turnover": 48.55,
+      "change_pct": 16.68,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "中国平安",
+      "code": "601318",
+      "turnover": 47.38,
+      "change_pct": 0.79,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "云南锗业",
+      "code": "002428",
+      "turnover": 47.14,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "中信证券",
+      "code": "600030",
+      "turnover": 46.82,
+      "change_pct": 5.95,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "长电科技",
+      "code": "600584",
+      "turnover": 46.57,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "同花顺",
+      "code": "300033",
+      "turnover": 46.24,
+      "change_pct": 9.52,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "工商银行",
+      "code": "601398",
+      "turnover": 46.13,
+      "change_pct": -1.41,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "美的集团",
+      "code": "000333",
+      "turnover": 45.2,
+      "change_pct": -1.61,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "联讯仪器",
+      "code": "688808",
+      "turnover": 45.09,
+      "change_pct": 18.21,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "瑞芯微",
+      "code": "603893",
+      "turnover": 44.39,
+      "change_pct": 10.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "中京电子",
+      "code": "002579",
+      "turnover": 44.39,
+      "change_pct": 9.72,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "拓荆科技",
+      "code": "688072",
+      "turnover": 44.05,
+      "change_pct": 20.0,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "冰山冷热",
+      "code": "000530",
+      "turnover": 43.7,
+      "change_pct": -4.45,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "三环集团",
+      "code": "300408",
+      "turnover": 42.85,
+      "change_pct": 15.4,
+      "sector": "其他",
+      "turnover_percentile": 0
+    },
+    {
+      "name": "君正股份",
+      "code": "300223",
+      "turnover": 42.59,
+      "change_pct": 15.65,
+      "sector": "其他",
+      "turnover_percentile": 0
+    }
+  ]
+}
